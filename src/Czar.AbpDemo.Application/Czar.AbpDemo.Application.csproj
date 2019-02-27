@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Czar.AbpDemo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Czar.AbpDemo.Domain\Czar.AbpDemo.Domain.csproj" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="0.13.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="0.13.0" />
+  </ItemGroup>
+
+</Project>

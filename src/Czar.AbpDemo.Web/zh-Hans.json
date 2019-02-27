@@ -1,0 +1,16 @@
+{
+    "culture": "zh-Hans",
+  "texts": {
+    "Menu:Home": "首页",
+    "Menu:BookStore": "图书馆",
+    "Menu:Books": "图书管理",
+    "Welcome": "欢迎",
+    "LongWelcomeMessage": "欢迎来到该应用程序. 这是一个基于ABP框架的启动项目. 有关更多信息, 请访问 cn.abp.io.",
+    "Books:Name": "书籍名称",
+    "Books:Type": "书籍类型",
+    "Books:PublishDate": "出版日期",
+    "Books:Price": "书籍价格",
+    "Books:CreationTime": "创建时间",
+    "Books:NewBook": "新书籍"
+  }
+  }

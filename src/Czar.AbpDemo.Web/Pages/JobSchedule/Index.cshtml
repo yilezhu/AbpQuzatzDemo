@@ -1,0 +1,35 @@
+﻿@page
+@inherits Czar.AbpDemo.Pages.AbpDemoPageBase
+@model Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel
+@section scripts{
+    <abp-script src="/Pages/JobSchedule/index.js" />
+}
+
+<abp-card>
+    <abp-card-header>
+        <abp-row>
+            <abp-column size-md="_6"><h2>@L["JobSchedule:JobInfo"]</h2></abp-column>
+            <abp-column size-md="_6" class="text-right">
+                <abp-button id="NewJobInfoButton" text="@L["New"].Value" icon="plus" button-type="Primary"></abp-button>
+            </abp-column>
+        </abp-row>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-table striped-rows="true" id="JobInfoTable">
+            <thead>
+                <tr>
+                    <th>@L["Actions"]</th>
+                    <th>@L["JobSchedule:JobGroup"]</th>
+                    <th>@L["JobSchedule:JobName"]</th>
+                    <th>@L["JobSchedule:JobDescription"]</th>
+                    <th>@L["JobSchedule:JobStatus"]</th>
+                    <th>@L["JobSchedule:CronExpress"]</th>
+                    <th>@L["JobSchedule:StarTime"]</th>
+                    <th>@L["JobSchedule:EndTime"]</th>
+                    <th>@L["JobSchedule:NextTime"]</th>
+                </tr>
+            </thead>
+        </abp-table>
+    </abp-card-body>
+</abp-card>
+
