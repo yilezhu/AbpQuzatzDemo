@@ -15863,3 +15863,1711 @@ System.ArgumentException: Job class cannot be null.
 2019-02-28 21:57:00.009 +08:00 [DBG] Batch acquisition of 1 triggers
 2019-02-28 21:57:00.010 +08:00 [DBG] Calling Execute on job TestGroup1.Testjob1
 2019-02-28 21:57:00.010 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 12:35:30.623 +08:00 [INF] Starting web host.
+2019-03-01 12:35:41.279 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-01 12:35:41.524 +08:00 [INF] Loaded modules:
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-01 12:35:41.524 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-01 12:35:41.525 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-01 12:35:41.576 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-01 12:35:41.576 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-01 12:35:41.580 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-01 12:35:41.580 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-01 12:35:41.580 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-01 12:35:42.033 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-01 12:35:47.995 +08:00 [INF] Initialized all modules.
+2019-03-01 12:35:48.248 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-01 12:35:48.248 +08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:53929/  0
+2019-03-01 12:35:48.284 +08:00 [INF] Request finished in 35.5465ms 200 
+2019-03-01 12:35:50.146 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-03-01 12:35:50.163 +08:00 [INF] Executing handler method Czar.AbpDemo.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 12:35:50.166 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 12:35:50.168 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:35:50.168 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:35:50.920 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 8.53 ms.
+2019-03-01 12:35:52.051 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:52.052 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:52.941 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 3.49 ms.
+2019-03-01 12:35:52.955 +08:00 [INF] Executed page /Index in 2806.3068000000003ms
+2019-03-01 12:35:52.963 +08:00 [INF] Request finished in 4717.0082ms 200 text/html; charset=utf-8
+2019-03-01 12:35:53.001 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/toastr/toastr.min.css?_v=636861516610660942  
+2019-03-01 12:35:53.003 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/select2/css/select2.min.css?_v=636861516610639257  
+2019-03-01 12:35:53.004 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/bootstrap/css/bootstrap.css?_v=636861516610621802  
+2019-03-01 12:35:53.009 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/font-awesome/css/font-awesome.css?_v=636861516610623817  
+2019-03-01 12:35:53.010 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/datatables.net-bs4/css/dataTables.bootstrap4.css?_v=636861516610622596  
+2019-03-01 12:35:53.011 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css?_v=636841703840000000  
+2019-03-01 12:35:53.031 +08:00 [INF] Sending file. Request path: '/libs/select2/css/select2.min.css'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\select2\css\select2.min.css'
+2019-03-01 12:35:53.031 +08:00 [INF] Sending file. Request path: '/libs/datatables.net-bs4/css/dataTables.bootstrap4.css'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\datatables.net-bs4\css\dataTables.bootstrap4.css'
+2019-03-01 12:35:53.031 +08:00 [INF] Sending file. Request path: '/libs/font-awesome/css/font-awesome.css'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\font-awesome\css\font-awesome.css'
+2019-03-01 12:35:53.031 +08:00 [INF] Request finished in 27.9794ms 200 text/css
+2019-03-01 12:35:53.031 +08:00 [INF] Request finished in 21.2491ms 200 text/css
+2019-03-01 12:35:53.031 +08:00 [INF] Request finished in 21.8948ms 200 text/css
+2019-03-01 12:35:53.032 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/datatables/datatables-styles.css'
+2019-03-01 12:35:53.032 +08:00 [INF] Request finished in 21.1422ms 200 text/css
+2019-03-01 12:35:53.053 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/jquery/jquery.js?_v=636861516610638575  
+2019-03-01 12:35:53.053 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/core/abp.js?_v=636861516610621089  
+2019-03-01 12:35:53.053 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/pages/index.css  
+2019-03-01 12:35:53.057 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/themes/basic/layout.css?_v=636841704060000000  
+2019-03-01 12:35:53.059 +08:00 [INF] Sending file. Request path: '/themes/basic/layout.css'. Physical path: '/wwwroot/themes/basic/layout.css'
+2019-03-01 12:35:53.060 +08:00 [INF] Request finished in 2.8245ms 200 text/css
+2019-03-01 12:35:53.060 +08:00 [INF] Sending file. Request path: '/libs/abp/core/abp.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\abp\core\abp.js'
+2019-03-01 12:35:53.060 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.min.css'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\toastr\toastr.min.css'
+2019-03-01 12:35:53.060 +08:00 [INF] Sending file. Request path: '/pages/index.css'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\pages\index.css'
+2019-03-01 12:35:53.067 +08:00 [INF] Request finished in 66.0566ms 200 text/css
+2019-03-01 12:35:53.067 +08:00 [INF] Request finished in 13.6613ms 200 application/javascript
+2019-03-01 12:35:53.067 +08:00 [INF] Request finished in 13.5526ms 200 text/css
+2019-03-01 12:35:53.090 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/jquery/abp.jquery.js?_v=636861516610621370  
+2019-03-01 12:35:53.091 +08:00 [INF] Sending file. Request path: '/libs/abp/jquery/abp.jquery.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\abp\jquery\abp.jquery.js'
+2019-03-01 12:35:53.092 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/jquery-validation/jquery.validate.js?_v=636861516610626130  
+2019-03-01 12:35:53.092 +08:00 [INF] Request finished in 1.2674ms 200 application/javascript
+2019-03-01 12:35:53.092 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/bootstrap/js/bootstrap.bundle.js?_v=636861516610622110  
+2019-03-01 12:35:53.093 +08:00 [INF] Sending file. Request path: '/libs/bootstrap/css/bootstrap.css'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\bootstrap\css\bootstrap.css'
+2019-03-01 12:35:53.093 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation/jquery.validate.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\jquery-validation\jquery.validate.js'
+2019-03-01 12:35:53.093 +08:00 [INF] Request finished in 1.235ms 200 application/javascript
+2019-03-01 12:35:53.093 +08:00 [INF] Request finished in 89.4192ms 200 text/css
+2019-03-01 12:35:53.101 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/lodash/lodash.min.js?_v=636861516610638838  
+2019-03-01 12:35:53.102 +08:00 [INF] Sending file. Request path: '/libs/lodash/lodash.min.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\lodash\lodash.min.js'
+2019-03-01 12:35:53.103 +08:00 [INF] Request finished in 1.7137ms 200 application/javascript
+2019-03-01 12:35:53.109 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js?_v=636861516610625818  
+2019-03-01 12:35:53.110 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-03-01 12:35:53.110 +08:00 [INF] Request finished in 0.9716ms 200 application/javascript
+2019-03-01 12:35:53.119 +08:00 [INF] Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\jquery\jquery.js'
+2019-03-01 12:35:53.119 +08:00 [INF] Request finished in 66.3015ms 200 application/javascript
+2019-03-01 12:35:53.120 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/jquery-form/jquery.form.min.js?_v=636861516610625448  
+2019-03-01 12:35:53.120 +08:00 [INF] Sending file. Request path: '/libs/jquery-form/jquery.form.min.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\jquery-form\jquery.form.min.js'
+2019-03-01 12:35:53.120 +08:00 [INF] Request finished in 0.6667ms 200 application/javascript
+2019-03-01 12:35:53.122 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/select2/js/select2.min.js?_v=636861516610648163  
+2019-03-01 12:35:53.130 +08:00 [INF] Sending file. Request path: '/libs/select2/js/select2.min.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\select2\js\select2.min.js'
+2019-03-01 12:35:53.130 +08:00 [INF] Request finished in 7.3409ms 200 application/javascript
+2019-03-01 12:35:53.130 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/datatables.net/js/jquery.dataTables.js?_v=636861516610623362  
+2019-03-01 12:35:53.132 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/datatables.net-bs4/js/dataTables.bootstrap4.js?_v=636861516610622916  
+2019-03-01 12:35:53.134 +08:00 [INF] Sending file. Request path: '/libs/datatables.net-bs4/js/dataTables.bootstrap4.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\datatables.net-bs4\js\dataTables.bootstrap4.js'
+2019-03-01 12:35:53.134 +08:00 [INF] Request finished in 2.0039ms 200 application/javascript
+2019-03-01 12:35:53.148 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/sweetalert/sweetalert.min.js?_v=636861516610648453  
+2019-03-01 12:35:53.149 +08:00 [INF] Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\sweetalert\sweetalert.min.js'
+2019-03-01 12:35:53.149 +08:00 [INF] Sending file. Request path: '/libs/bootstrap/js/bootstrap.bundle.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\bootstrap\js\bootstrap.bundle.js'
+2019-03-01 12:35:53.149 +08:00 [INF] Request finished in 1.0734ms 200 application/javascript
+2019-03-01 12:35:53.149 +08:00 [INF] Request finished in 56.8742ms 200 application/javascript
+2019-03-01 12:35:53.149 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/toastr/toastr.min.js?_v=636861516610661080  
+2019-03-01 12:35:53.150 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\toastr\toastr.min.js'
+2019-03-01 12:35:53.150 +08:00 [INF] Request finished in 0.7296ms 200 application/javascript
+2019-03-01 12:35:53.161 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js?_v=636841703840000000  
+2019-03-01 12:35:53.162 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/timeago/jquery.timeago.js?_v=636861516610648724  
+2019-03-01 12:35:53.162 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/jquery/jquery-extensions.js'
+2019-03-01 12:35:53.162 +08:00 [INF] Request finished in 0.5782ms 200 application/javascript
+2019-03-01 12:35:53.163 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js?_v=636841703840000000  
+2019-03-01 12:35:53.163 +08:00 [INF] Sending file. Request path: '/libs/timeago/jquery.timeago.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\timeago\jquery.timeago.js'
+2019-03-01 12:35:53.163 +08:00 [INF] Request finished in 1.5146ms 200 application/javascript
+2019-03-01 12:35:53.163 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js?_v=636841703840000000  
+2019-03-01 12:35:53.163 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/bootstrap/dom-event-handlers.js'
+2019-03-01 12:35:53.163 +08:00 [INF] Request finished in 0.4599ms 200 application/javascript
+2019-03-01 12:35:53.163 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/jquery_form/jquery-form-extensions.js'
+2019-03-01 12:35:53.163 +08:00 [INF] Request finished in 0.2705ms 200 application/javascript
+2019-03-01 12:35:53.188 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js?_v=636841703840000000  
+2019-03-01 12:35:53.189 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/bootstrap/modal-manager.js'
+2019-03-01 12:35:53.189 +08:00 [INF] Request finished in 0.492ms 200 application/javascript
+2019-03-01 12:35:53.207 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js?_v=636841703840000000  
+2019-03-01 12:35:53.207 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert/abp-sweetalert.js?_v=636841703840000000  
+2019-03-01 12:35:53.207 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/datatables/datatables-extensions.js'
+2019-03-01 12:35:53.207 +08:00 [INF] Request finished in 0.5327ms 200 application/javascript
+2019-03-01 12:35:53.208 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert/abp-sweetalert.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/sweetalert/abp-sweetalert.js'
+2019-03-01 12:35:53.208 +08:00 [INF] Request finished in 0.8237ms 200 application/javascript
+2019-03-01 12:35:53.209 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2019-03-01 12:35:53.209 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js?_v=636841703840000000  
+2019-03-01 12:35:53.209 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/toastr/abp-toastr.js'
+2019-03-01 12:35:53.210 +08:00 [INF] Request finished in 1.3926ms 200 application/javascript
+2019-03-01 12:35:53.211 +08:00 [INF] Sending file. Request path: '/libs/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-03-01 12:35:53.211 +08:00 [INF] Request finished in 2.6624ms 200 font/woff2
+2019-03-01 12:35:53.225 +08:00 [INF] Sending file. Request path: '/libs/datatables.net/js/jquery.dataTables.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\datatables.net\js\jquery.dataTables.js'
+2019-03-01 12:35:53.225 +08:00 [INF] Request finished in 95.2637ms 200 application/javascript
+2019-03-01 12:35:53.226 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Pages/Identity/Shared/change-password-modal.js?_v=636841708360000000  
+2019-03-01 12:35:53.226 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/libs/jquery-validation/localization/messages_zh.js?_v=636861516610637126  
+2019-03-01 12:35:53.226 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:35:53.226 +08:00 [INF] Sending file. Request path: '/Pages/Identity/Shared/change-password-modal.js'. Physical path: '/Pages/Identity/Shared/change-password-modal.js'
+2019-03-01 12:35:53.226 +08:00 [INF] Request finished in 0.7204ms 200 application/javascript
+2019-03-01 12:35:53.227 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation/localization/messages_zh.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\wwwroot\libs\jquery-validation\localization\messages_zh.js'
+2019-03-01 12:35:53.227 +08:00 [INF] Request finished in 1.0976ms 200 application/javascript
+2019-03-01 12:35:53.227 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Pages/Identity/Shared/personal-settings-modal.js?_v=636841708360000000  
+2019-03-01 12:35:53.228 +08:00 [INF] Sending file. Request path: '/Pages/Identity/Shared/personal-settings-modal.js'. Physical path: '/Pages/Identity/Shared/personal-settings-modal.js'
+2019-03-01 12:35:53.228 +08:00 [INF] Request finished in 0.8058ms 200 application/javascript
+2019-03-01 12:35:53.231 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:35:53.251 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:35:53.267 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:35:53.361 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:35:53.362 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.381 +08:00 [INF] Authorization failed.
+2019-03-01 12:35:53.408 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 44.29ms.
+2019-03-01 12:35:53.410 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-03-01 12:35:53.417 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:35:53.418 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-03-01 12:35:53.418 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-03-01 12:35:53.418 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-03-01 12:35:53.418 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-03-01 12:35:53.419 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 168.1988ms
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-03-01 12:35:53.419 +08:00 [INF] Request finished in 193.0804ms 200 text/plain; charset=utf-8
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-03-01 12:35:53.419 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetAsyncById
+2019-03-01 12:35:53.420 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetListAsyncByInput
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.CreateAsyncByInput
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.UpdateAsyncByIdAndInput
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.DeleteAsyncById
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetAsyncById
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetListAsyncByInput
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.CreateAsyncByInput
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.UpdateAsyncByIdAndInput
+2019-03-01 12:35:53.421 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.DeleteAsyncById
+2019-03-01 12:35:53.439 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 76.7825ms.
+2019-03-01 12:35:53.440 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:35:53.440 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 172.9033ms
+2019-03-01 12:35:53.440 +08:00 [INF] Request finished in 209.0221ms 200 text/plain; charset=utf-8
+2019-03-01 12:35:53.519 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/favicon.ico  
+2019-03-01 12:35:53.520 +08:00 [INF] Request finished in 1.8227ms 404 
+2019-03-01 12:38:02.035 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Account/Login  
+2019-03-01 12:38:02.712 +08:00 [INF] Route matched with {page = "/Account/Login", controller = "", area = "", action = ""}. Executing page /Account/Login
+2019-03-01 12:38:02.741 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:38:02.746 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:38:02.746 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:38:02.746 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:38:03.732 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.32 ms.
+2019-03-01 12:38:03.737 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.737 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.750 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.73 ms.
+2019-03-01 12:38:03.758 +08:00 [INF] Executed page /Account/Login in 1045.9941000000001ms
+2019-03-01 12:38:03.764 +08:00 [INF] Request finished in 1728.3154ms 200 text/html; charset=utf-8
+2019-03-01 12:38:03.787 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:38:03.797 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:38:03.798 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:38:03.820 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:38:03.821 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:38:03.821 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1706ms.
+2019-03-01 12:38:03.821 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:38:03.821 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 22.749000000000002ms
+2019-03-01 12:38:03.821 +08:00 [INF] Request finished in 24.2409ms 200 text/plain; charset=utf-8
+2019-03-01 12:38:03.849 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.850 +08:00 [INF] Authorization failed.
+2019-03-01 12:38:03.851 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6076000000000001ms.
+2019-03-01 12:38:03.851 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:38:03.851 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 30.2515ms
+2019-03-01 12:38:03.851 +08:00 [INF] Request finished in 64.3886ms 200 text/plain; charset=utf-8
+2019-03-01 12:38:15.353 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/Account/Login application/x-www-form-urlencoded 317
+2019-03-01 12:38:15.365 +08:00 [INF] Route matched with {page = "/Account/Login", controller = "", area = "", action = ""}. Executing page /Account/Login
+2019-03-01 12:38:15.409 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnPostAsync with arguments (["Login"]) - ModelState is "Valid"
+2019-03-01 12:38:15.803 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-03-01 12:38:15.870 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:38:15.874 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectResult.
+2019-03-01 12:38:15.879 +08:00 [INF] Executing RedirectResult, redirecting to /.
+2019-03-01 12:38:15.879 +08:00 [INF] Executed page /Account/Login in 514.35250000000008ms
+2019-03-01 12:38:15.887 +08:00 [INF] Request finished in 533.4268ms 302 
+2019-03-01 12:38:15.894 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-01 12:38:15.908 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-03-01 12:38:15.908 +08:00 [INF] Executing handler method Czar.AbpDemo.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 12:38:15.908 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 12:38:15.908 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:38:15.908 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:38:15.910 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.24 ms.
+2019-03-01 12:38:16.042 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.133 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.332 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.64 ms.
+2019-03-01 12:38:16.334 +08:00 [INF] Executed page /Index in 425.5994ms
+2019-03-01 12:38:16.334 +08:00 [INF] Request finished in 439.6188ms 200 text/html; charset=utf-8
+2019-03-01 12:38:16.364 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:38:16.364 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:38:16.369 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:38:16.396 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:38:16.396 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0494ms.
+2019-03-01 12:38:16.396 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:38:16.396 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 27.0163ms
+2019-03-01 12:38:16.396 +08:00 [INF] Request finished in 32.6872ms 200 text/plain; charset=utf-8
+2019-03-01 12:38:16.397 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:38:16.418 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:38:16.422 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.512 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.596 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.665 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.739 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.740 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.816 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.888 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:16.967 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:17.045 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:17.047 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 628.7412ms.
+2019-03-01 12:38:17.047 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:38:17.047 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 650.392ms
+2019-03-01 12:38:17.047 +08:00 [INF] Request finished in 683.5557ms 200 text/plain; charset=utf-8
+2019-03-01 12:38:18.687 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule  
+2019-03-01 12:38:18.904 +08:00 [INF] Route matched with {page = "/JobSchedule/Index", controller = "", area = "", action = ""}. Executing page /JobSchedule/Index
+2019-03-01 12:38:18.904 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 12:38:18.905 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 12:38:18.905 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:38:18.905 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:38:18.936 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.29 ms.
+2019-03-01 12:38:18.937 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:18.937 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:18.940 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.63 ms.
+2019-03-01 12:38:18.946 +08:00 [DBG] Added bundle 'Pages.JobSchedule.index' to the page in 0.54 ms.
+2019-03-01 12:38:18.947 +08:00 [INF] Executed page /JobSchedule/Index in 42.490100000000005ms
+2019-03-01 12:38:18.947 +08:00 [INF] Request finished in 260.1957ms 200 text/html; charset=utf-8
+2019-03-01 12:38:18.974 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:38:18.977 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:38:18.979 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Pages/JobSchedule/index.js?_v=636868310076174892  
+2019-03-01 12:38:18.980 +08:00 [INF] Sending file. Request path: '/Pages/JobSchedule/index.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\Pages\JobSchedule\index.js'
+2019-03-01 12:38:18.980 +08:00 [INF] Request finished in 1.1852ms 200 application/javascript
+2019-03-01 12:38:18.986 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:38:18.986 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:38:19.014 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:38:19.015 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.080700000000000008ms.
+2019-03-01 12:38:19.015 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:38:19.015 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 28.968700000000002ms
+2019-03-01 12:38:19.015 +08:00 [INF] Request finished in 38.0792ms 200 text/plain; charset=utf-8
+2019-03-01 12:38:19.044 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:38:19.045 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.046 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.046 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.046 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.047 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.047 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.047 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.047 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.048 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.048 +08:00 [INF] Authorization was successful.
+2019-03-01 12:38:19.049 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.4194ms.
+2019-03-01 12:38:19.049 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:38:19.049 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 63.505100000000006ms
+2019-03-01 12:38:19.049 +08:00 [INF] Request finished in 74.9347ms 200 text/plain; charset=utf-8
+2019-03-01 12:38:19.150 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:38:19.162 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:38:20.050 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:38:20.403 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 352.91ms.
+2019-03-01 12:38:20.415 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:38:20.434 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 1272.3359ms
+2019-03-01 12:38:20.434 +08:00 [INF] Request finished in 1284.5317ms 200 application/json; charset=utf-8
+2019-03-01 12:38:27.547 +08:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:53929/api/app/book/1 application/json 
+2019-03-01 12:38:27.554 +08:00 [INF] Route matched with {action = "DeleteAsync", controller = "Book", area = "", page = ""}. Executing action Czar.AbpDemo.BookStore.BookAppService.DeleteAsync (Czar.AbpDemo.Application)
+2019-03-01 12:38:28.051 +08:00 [INF] Executing action method Czar.AbpDemo.BookStore.BookAppService.DeleteAsync (Czar.AbpDemo.Application) with arguments (["1"]) - Validation state: "Valid"
+2019-03-01 12:38:28.124 +08:00 [INF] Executed action method Czar.AbpDemo.BookStore.BookAppService.DeleteAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 73.7381ms.
+2019-03-01 12:38:28.125 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:38:28.125 +08:00 [INF] Executed action Czar.AbpDemo.BookStore.BookAppService.DeleteAsync (Czar.AbpDemo.Application) in 570.98520000000008ms
+2019-03-01 12:38:28.318 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:38:28.318 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:38:28.321 +08:00 [INF] Request finished in 774.4225ms 200 
+2019-03-01 12:38:28.339 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:38:28.365 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:38:28.385 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:38:28.445 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 60.186800000000005ms.
+2019-03-01 12:38:28.446 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:38:28.446 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 80.3591ms
+2019-03-01 12:38:28.446 +08:00 [INF] Request finished in 107.1256ms 200 application/json; charset=utf-8
+2019-03-01 12:41:29.042 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule  
+2019-03-01 12:41:29.048 +08:00 [INF] Route matched with {page = "/JobSchedule/Index", controller = "", area = "", action = ""}. Executing page /JobSchedule/Index
+2019-03-01 12:41:29.048 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 12:41:29.048 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 12:41:29.048 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:41:29.048 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:41:29.069 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.33 ms.
+2019-03-01 12:41:29.071 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.072 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.077 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.64 ms.
+2019-03-01 12:41:29.077 +08:00 [DBG] Added bundle 'Pages.JobSchedule.index' to the page in 0.10 ms.
+2019-03-01 12:41:29.077 +08:00 [INF] Executed page /JobSchedule/Index in 29.1157ms
+2019-03-01 12:41:29.077 +08:00 [INF] Request finished in 35.2891ms 200 text/html; charset=utf-8
+2019-03-01 12:41:29.112 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:41:29.113 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:41:29.114 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Pages/JobSchedule/index.js?_v=636870120865343122  
+2019-03-01 12:41:29.115 +08:00 [INF] Sending file. Request path: '/Pages/JobSchedule/index.js'. Physical path: 'E:\workspace\vs2017\AbpQuartzDemo\src\Czar.AbpDemo.Web\Pages\JobSchedule\index.js'
+2019-03-01 12:41:29.115 +08:00 [INF] Request finished in 1.2137ms 200 application/javascript
+2019-03-01 12:41:29.123 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:41:29.123 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:41:29.147 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:41:29.147 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0995ms.
+2019-03-01 12:41:29.147 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:41:29.147 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 24.1325ms
+2019-03-01 12:41:29.147 +08:00 [INF] Request finished in 34.2696ms 200 text/plain; charset=utf-8
+2019-03-01 12:41:29.173 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:41:29.173 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.174 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.174 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.174 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.174 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.175 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.175 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.175 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.176 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.176 +08:00 [INF] Authorization was successful.
+2019-03-01 12:41:29.177 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.6594000000000007ms.
+2019-03-01 12:41:29.178 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:41:29.178 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 54.5915ms
+2019-03-01 12:41:29.178 +08:00 [INF] Request finished in 65.9889ms 200 text/plain; charset=utf-8
+2019-03-01 12:41:29.310 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:41:29.315 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:41:29.338 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:41:29.406 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 67.399200000000008ms.
+2019-03-01 12:41:29.407 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:41:29.407 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 91.9007ms
+2019-03-01 12:41:29.407 +08:00 [INF] Request finished in 96.9553ms 200 application/json; charset=utf-8
+2019-03-01 12:41:31.963 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:41:32.252 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:41:32.285 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:41:32.363 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:41:32.363 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:41:32.363 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:41:32.660 +08:00 [INF] Executed page /JobSchedule/EditModal in 407.09450000000004ms
+2019-03-01 12:41:32.660 +08:00 [INF] Request finished in 697.4384ms 200 text/html; charset=utf-8
+2019-03-01 12:41:41.651 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:41:41.659 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:41:41.661 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:41:41.690 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:41:41.691 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:41:41.691 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:41:41.863 +08:00 [INF] Executed page /JobSchedule/EditModal in 203.7115ms
+2019-03-01 12:41:41.863 +08:00 [INF] Request finished in 212.2343ms 200 text/html; charset=utf-8
+2019-03-01 12:46:13.736 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 12:46:13.741 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:46:13.806 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:46:13.843 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:46:13.929 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:46:13.929 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:46:13.930 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:46:13.931 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 12:46:13.934 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 12:46:13.934 +08:00 [INF] Executed page /JobSchedule/EditModal in 192.5962ms
+2019-03-01 12:46:13.990 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:46:13.990 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:46:13.990 +08:00 [INF] Request finished in 254.4918ms 204 
+2019-03-01 12:46:14.001 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:46:14.009 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:46:14.029 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:46:14.082 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 53.746100000000006ms.
+2019-03-01 12:46:14.083 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:46:14.083 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 73.6357ms
+2019-03-01 12:46:14.083 +08:00 [INF] Request finished in 81.8908ms 200 application/json; charset=utf-8
+2019-03-01 12:47:43.682 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:47:43.686 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:47:43.687 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:47:43.718 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:47:43.718 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:47:43.718 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:47:43.888 +08:00 [INF] Executed page /JobSchedule/EditModal in 201.65470000000002ms
+2019-03-01 12:47:43.888 +08:00 [INF] Request finished in 206.792ms 200 text/html; charset=utf-8
+2019-03-01 12:47:49.606 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 12:47:49.612 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:47:49.688 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:47:49.720 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:47:49.752 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:47:49.753 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:47:49.753 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 12:47:49.753 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 12:47:49.753 +08:00 [INF] Executed page /JobSchedule/EditModal in 141.0807ms
+2019-03-01 12:47:49.801 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:47:49.801 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:47:49.801 +08:00 [INF] Request finished in 194.7589ms 204 
+2019-03-01 12:47:49.815 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:47:49.820 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:47:49.839 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:47:49.896 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 57.0454ms.
+2019-03-01 12:47:49.896 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:47:49.896 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 76.3854ms
+2019-03-01 12:47:49.896 +08:00 [INF] Request finished in 81.461ms 200 application/json; charset=utf-8
+2019-03-01 12:51:12.486 +08:00 [INF] Starting web host.
+2019-03-01 12:51:22.468 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-01 12:51:22.760 +08:00 [INF] Loaded modules:
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-01 12:51:22.760 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-01 12:51:22.761 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-01 12:51:22.762 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-01 12:51:22.806 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-01 12:51:22.806 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-01 12:51:22.809 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-01 12:51:22.809 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-01 12:51:22.809 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-01 12:51:23.352 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-01 12:51:29.803 +08:00 [INF] Initialized all modules.
+2019-03-01 12:51:30.168 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-01 12:51:30.168 +08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:53929/  0
+2019-03-01 12:51:30.205 +08:00 [INF] Request finished in 36.6476ms 200 
+2019-03-01 12:51:32.406 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-03-01 12:51:32.438 +08:00 [INF] Executing handler method Czar.AbpDemo.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 12:51:32.442 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 12:51:32.444 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:51:32.444 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:51:33.304 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 12.97 ms.
+2019-03-01 12:51:34.750 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:34.842 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.047 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 3.35 ms.
+2019-03-01 12:51:36.066 +08:00 [INF] Executed page /Index in 3656.7132ms
+2019-03-01 12:51:36.104 +08:00 [INF] Request finished in 5938.0965ms 200 text/html; charset=utf-8
+2019-03-01 12:51:36.113 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:51:36.120 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:51:36.146 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:51:36.157 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:51:36.269 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:51:36.271 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:51:36.295 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.382 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.465 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.550 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.627 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.628 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.711 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.793 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-03-01 12:51:36.793 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.869 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.948 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-03-01 12:51:36.949 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-03-01 12:51:36.949 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:36.949 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-03-01 12:51:36.949 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-03-01 12:51:36.950 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-03-01 12:51:36.950 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-03-01 12:51:36.950 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-03-01 12:51:36.950 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-03-01 12:51:36.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-03-01 12:51:36.952 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetAsyncById
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetListAsyncByInput
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.CreateAsyncByInput
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.UpdateAsyncByIdAndInput
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.DeleteAsyncById
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetAsyncById
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetListAsyncByInput
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.CreateAsyncByInput
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.UpdateAsyncByIdAndInput
+2019-03-01 12:51:36.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.DeleteAsyncById
+2019-03-01 12:51:36.976 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 700.846ms.
+2019-03-01 12:51:36.977 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 707.1169ms.
+2019-03-01 12:51:36.985 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:51:36.985 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:51:36.986 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 828.29360000000008ms
+2019-03-01 12:51:36.986 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 840.00330000000008ms
+2019-03-01 12:51:36.986 +08:00 [INF] Request finished in 872.8115ms 200 text/plain; charset=utf-8
+2019-03-01 12:51:36.986 +08:00 [INF] Request finished in 866.3941ms 200 text/plain; charset=utf-8
+2019-03-01 12:51:39.225 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule  
+2019-03-01 12:51:39.456 +08:00 [INF] Route matched with {page = "/JobSchedule/Index", controller = "", area = "", action = ""}. Executing page /JobSchedule/Index
+2019-03-01 12:51:39.456 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 12:51:39.457 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 12:51:39.457 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:51:39.457 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:51:39.515 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.31 ms.
+2019-03-01 12:51:39.516 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.517 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.521 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.86 ms.
+2019-03-01 12:51:39.528 +08:00 [DBG] Added bundle 'Pages.JobSchedule.index' to the page in 0.71 ms.
+2019-03-01 12:51:39.528 +08:00 [INF] Executed page /JobSchedule/Index in 72.18610000000001ms
+2019-03-01 12:51:39.528 +08:00 [INF] Request finished in 303.684ms 200 text/html; charset=utf-8
+2019-03-01 12:51:39.556 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 12:51:39.556 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 12:51:39.558 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Pages/JobSchedule/index.js?_v=636870120865343122  
+2019-03-01 12:51:39.564 +08:00 [INF] The file /Pages/JobSchedule/index.js was not modified
+2019-03-01 12:51:39.567 +08:00 [INF] Request finished in 9.4927ms 304 application/javascript
+2019-03-01 12:51:39.567 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:51:39.596 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 12:51:39.596 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1686ms.
+2019-03-01 12:51:39.597 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:51:39.597 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 29.3669ms
+2019-03-01 12:51:39.597 +08:00 [INF] Request finished in 41.0474ms 200 text/plain; charset=utf-8
+2019-03-01 12:51:39.598 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 12:51:39.619 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 12:51:39.620 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.621 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.621 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.621 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.621 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.622 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.622 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.622 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.622 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.623 +08:00 [INF] Authorization was successful.
+2019-03-01 12:51:39.624 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.9512ms.
+2019-03-01 12:51:39.624 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 12:51:39.624 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 26.134500000000003ms
+2019-03-01 12:51:39.624 +08:00 [INF] Request finished in 67.8549ms 200 text/plain; charset=utf-8
+2019-03-01 12:51:39.738 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:51:39.757 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:51:40.637 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:51:41.013 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 375.6773ms.
+2019-03-01 12:51:41.024 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:51:41.043 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 1286.7052ms
+2019-03-01 12:51:41.044 +08:00 [INF] Request finished in 1305.2658ms 200 application/json; charset=utf-8
+2019-03-01 12:51:43.189 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:51:43.621 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:51:43.651 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:51:43.732 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:51:43.732 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:51:43.732 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:51:44.000 +08:00 [INF] Executed page /JobSchedule/EditModal in 379.33520000000004ms
+2019-03-01 12:51:44.000 +08:00 [INF] Request finished in 811.8751ms 200 text/html; charset=utf-8
+2019-03-01 12:51:52.539 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 12:51:52.561 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:51:52.658 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:51:52.704 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:51:52.758 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:51:52.759 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:51:52.760 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 12:51:52.762 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 12:51:52.762 +08:00 [INF] Executed page /JobSchedule/EditModal in 200.56130000000002ms
+2019-03-01 12:51:52.979 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:51:52.979 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:51:52.984 +08:00 [INF] Request finished in 444.4606ms 204 
+2019-03-01 12:51:52.992 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:51:52.996 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:51:53.016 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:51:53.075 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 59.1201ms.
+2019-03-01 12:51:53.075 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:51:53.076 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 79.6901ms
+2019-03-01 12:51:53.076 +08:00 [INF] Request finished in 84.1322ms 200 application/json; charset=utf-8
+2019-03-01 12:52:09.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:52:09.296 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:52:09.297 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:52:09.337 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:52:09.337 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:52:09.337 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:52:09.508 +08:00 [INF] Executed page /JobSchedule/EditModal in 211.9445ms
+2019-03-01 12:52:09.508 +08:00 [INF] Request finished in 217.3256ms 200 text/html; charset=utf-8
+2019-03-01 12:52:39.679 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 12:52:39.688 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:52:39.750 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:52:39.789 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:52:39.858 +08:00 [INF] Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2019-03-01 12:52:39.864 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2019-03-01 12:52:39.882 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2019-03-01 12:52:39.884 +08:00 [INF] Quartz Scheduler v.3.0.7.0 created.
+2019-03-01 12:52:39.885 +08:00 [INF] RAMJobStore initialized.
+2019-03-01 12:52:39.889 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-01 12:52:39.889 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
+2019-03-01 12:52:39.889 +08:00 [INF] Quartz scheduler version: 3.0.7.0
+2019-03-01 12:52:39.890 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 12:52:39.891 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 12:52:39.891 +08:00 [INF] Executed page /JobSchedule/EditModal in 202.0449ms
+2019-03-01 12:52:39.926 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:52:39.926 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:52:39.926 +08:00 [INF] Request finished in 247.2987ms 204 
+2019-03-01 12:52:39.942 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:52:39.950 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:52:39.970 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:52:40.032 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.648ms.
+2019-03-01 12:52:40.033 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:52:40.033 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 82.4409ms
+2019-03-01 12:52:40.033 +08:00 [INF] Request finished in 90.7194ms 200 application/json; charset=utf-8
+2019-03-01 12:52:42.226 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:52:42.235 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:52:42.236 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:52:42.272 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:52:42.272 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:52:42.272 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:52:42.440 +08:00 [INF] Executed page /JobSchedule/EditModal in 205.425ms
+2019-03-01 12:52:42.440 +08:00 [INF] Request finished in 214.174ms 200 text/html; charset=utf-8
+2019-03-01 12:52:50.436 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 12:52:50.450 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:52:50.517 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:52:50.547 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:52:50.547 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 12:52:50.547 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 12:52:50.547 +08:00 [INF] Executed page /JobSchedule/EditModal in 97.1342ms
+2019-03-01 12:52:50.581 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:52:50.581 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 12:52:50.582 +08:00 [INF] Request finished in 145.6827ms 204 
+2019-03-01 12:52:50.590 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 12:52:50.594 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 12:52:50.612 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 12:52:50.670 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 57.980700000000006ms.
+2019-03-01 12:52:50.671 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 12:52:50.671 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 76.742100000000008ms
+2019-03-01 12:52:50.671 +08:00 [INF] Request finished in 81.2005ms 200 application/json; charset=utf-8
+2019-03-01 12:52:53.963 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 12:52:53.970 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 12:52:53.972 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 12:52:54.004 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 12:52:54.005 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 12:52:54.005 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 12:52:54.174 +08:00 [INF] Executed page /JobSchedule/EditModal in 203.8355ms
+2019-03-01 12:52:54.175 +08:00 [INF] Request finished in 211.47ms 200 text/html; charset=utf-8
+2019-03-01 13:01:10.055 +08:00 [INF] Starting web host.
+2019-03-01 13:01:20.237 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-01 13:01:20.583 +08:00 [INF] Loaded modules:
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-01 13:01:20.584 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-01 13:01:20.585 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-01 13:01:20.633 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-01 13:01:20.633 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-01 13:01:20.636 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-01 13:01:20.636 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-01 13:01:20.636 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-01 13:01:21.295 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-01 13:01:27.464 +08:00 [INF] Initialized all modules.
+2019-03-01 13:01:27.800 +08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:53929/  0
+2019-03-01 13:01:27.800 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-01 13:01:27.832 +08:00 [INF] Request finished in 32.0262ms 200 
+2019-03-01 13:01:29.894 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-03-01 13:01:29.910 +08:00 [INF] Executing handler method Czar.AbpDemo.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 13:01:29.912 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 13:01:29.914 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:01:29.914 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:01:30.652 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 8.39 ms.
+2019-03-01 13:01:32.095 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:32.185 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:33.306 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 4.11 ms.
+2019-03-01 13:01:33.334 +08:00 [INF] Executed page /Index in 3436.9883ms
+2019-03-01 13:01:33.380 +08:00 [INF] Request finished in 5581.8026ms 200 text/html; charset=utf-8
+2019-03-01 13:01:33.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 13:01:33.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 13:01:33.447 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 13:01:33.473 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 13:01:33.558 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 13:01:33.561 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 13:01:33.588 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:33.734 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:33.831 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:33.919 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.032 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.032 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.140 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.239 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.354 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.394 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-03-01 13:01:34.428 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:34.432 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-03-01 13:01:34.432 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-03-01 13:01:34.432 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-03-01 13:01:34.432 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-03-01 13:01:34.433 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetAsyncById
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetListAsyncByInput
+2019-03-01 13:01:34.434 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.CreateAsyncByInput
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.UpdateAsyncByIdAndInput
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.DeleteAsyncById
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetAsyncById
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetListAsyncByInput
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.CreateAsyncByInput
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.UpdateAsyncByIdAndInput
+2019-03-01 13:01:34.435 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.DeleteAsyncById
+2019-03-01 13:01:34.497 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 936.1807ms.
+2019-03-01 13:01:34.497 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 934.64420000000007ms.
+2019-03-01 13:01:34.502 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 13:01:34.502 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 13:01:34.504 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 1056.1923000000002ms
+2019-03-01 13:01:34.504 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1030.1611ms
+2019-03-01 13:01:34.504 +08:00 [INF] Request finished in 1088.9303ms 200 text/plain; charset=utf-8
+2019-03-01 13:01:34.504 +08:00 [INF] Request finished in 1088.9328ms 200 text/plain; charset=utf-8
+2019-03-01 13:01:36.026 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule  
+2019-03-01 13:01:36.366 +08:00 [INF] Route matched with {page = "/JobSchedule/Index", controller = "", area = "", action = ""}. Executing page /JobSchedule/Index
+2019-03-01 13:01:36.366 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 13:01:36.366 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 13:01:36.366 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:01:36.366 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:01:36.404 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.26 ms.
+2019-03-01 13:01:36.405 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.406 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.409 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.55 ms.
+2019-03-01 13:01:36.415 +08:00 [DBG] Added bundle 'Pages.JobSchedule.index' to the page in 0.59 ms.
+2019-03-01 13:01:36.415 +08:00 [INF] Executed page /JobSchedule/Index in 49.3008ms
+2019-03-01 13:01:36.415 +08:00 [INF] Request finished in 388.7868ms 200 text/html; charset=utf-8
+2019-03-01 13:01:36.444 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 13:01:36.444 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 13:01:36.445 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Pages/JobSchedule/index.js?_v=636870120865343122  
+2019-03-01 13:01:36.454 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 13:01:36.455 +08:00 [INF] The file /Pages/JobSchedule/index.js was not modified
+2019-03-01 13:01:36.479 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 13:01:36.480 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2596ms.
+2019-03-01 13:01:36.480 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 13:01:36.480 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 26.456200000000003ms
+2019-03-01 13:01:36.480 +08:00 [INF] Request finished in 35.1397ms 304 application/javascript
+2019-03-01 13:01:36.480 +08:00 [INF] Request finished in 36.6877ms 200 text/plain; charset=utf-8
+2019-03-01 13:01:36.481 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 13:01:36.516 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 13:01:36.518 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.518 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.519 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.519 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.520 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.520 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.520 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.521 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.522 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.522 +08:00 [INF] Authorization was successful.
+2019-03-01 13:01:36.524 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.6874ms.
+2019-03-01 13:01:36.524 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 13:01:36.525 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 43.5829ms
+2019-03-01 13:01:36.525 +08:00 [INF] Request finished in 81.0107ms 200 text/plain; charset=utf-8
+2019-03-01 13:01:36.637 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:01:36.652 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:01:37.569 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:01:37.934 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 364.57370000000003ms.
+2019-03-01 13:01:37.953 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:01:37.976 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 1323.0356000000002ms
+2019-03-01 13:01:37.976 +08:00 [INF] Request finished in 1338.3066ms 200 application/json; charset=utf-8
+2019-03-01 13:01:39.581 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 13:01:39.916 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:01:39.943 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:01:40.035 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 13:01:40.035 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:01:40.035 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:01:40.310 +08:00 [INF] Executed page /JobSchedule/EditModal in 393.89340000000004ms
+2019-03-01 13:01:40.310 +08:00 [INF] Request finished in 729.0012ms 200 text/html; charset=utf-8
+2019-03-01 13:01:47.356 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 13:01:47.383 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:01:47.465 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:01:47.510 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:01:47.574 +08:00 [INF] Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2019-03-01 13:01:47.579 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2019-03-01 13:01:47.595 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2019-03-01 13:01:47.597 +08:00 [INF] Quartz Scheduler v.3.0.7.0 created.
+2019-03-01 13:01:47.598 +08:00 [INF] RAMJobStore initialized.
+2019-03-01 13:01:47.603 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-01 13:01:47.604 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
+2019-03-01 13:01:47.604 +08:00 [INF] Quartz scheduler version: 3.0.7.0
+2019-03-01 13:01:47.608 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 13:01:47.611 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 13:01:47.612 +08:00 [INF] Executed page /JobSchedule/EditModal in 228.512ms
+2019-03-01 13:01:47.805 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:01:47.805 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:01:47.810 +08:00 [INF] Request finished in 454.3144ms 204 
+2019-03-01 13:01:47.820 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:01:47.825 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:01:47.851 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:01:47.912 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.144000000000005ms.
+2019-03-01 13:01:47.913 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:01:47.913 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 87.662500000000009ms
+2019-03-01 13:01:47.913 +08:00 [INF] Request finished in 92.9973ms 200 application/json; charset=utf-8
+2019-03-01 13:01:51.004 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 13:01:51.013 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:01:51.014 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:01:51.054 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 13:01:51.054 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:01:51.054 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:01:51.219 +08:00 [INF] Executed page /JobSchedule/EditModal in 206.33180000000002ms
+2019-03-01 13:01:51.219 +08:00 [INF] Request finished in 215.6522ms 200 text/html; charset=utf-8
+2019-03-01 13:03:00.424 +08:00 [INF] Starting web host.
+2019-03-01 13:03:01.416 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-01 13:03:01.464 +08:00 [INF] Loaded modules:
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-01 13:03:01.464 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-01 13:03:01.465 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-01 13:03:01.512 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-01 13:03:01.512 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-01 13:03:01.516 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-01 13:03:01.516 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-01 13:03:01.516 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-01 13:03:01.770 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-01 13:03:03.044 +08:00 [INF] Initialized all modules.
+2019-03-01 13:03:03.226 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule  
+2019-03-01 13:03:04.805 +08:00 [INF] Route matched with {page = "/JobSchedule/Index", controller = "", area = "", action = ""}. Executing page /JobSchedule/Index
+2019-03-01 13:03:04.816 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-01 13:03:04.818 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-01 13:03:04.819 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:03:04.819 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:03:05.196 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 8.19 ms.
+2019-03-01 13:03:05.634 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:05.642 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.566 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 2.91 ms.
+2019-03-01 13:03:06.572 +08:00 [DBG] Added bundle 'Pages.JobSchedule.index' to the page in 0.50 ms.
+2019-03-01 13:03:06.589 +08:00 [INF] Executed page /JobSchedule/Index in 1781.8423ms
+2019-03-01 13:03:06.604 +08:00 [INF] Request finished in 3378.2464ms 200 text/html; charset=utf-8
+2019-03-01 13:03:06.620 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-01 13:03:06.620 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-01 13:03:06.635 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 13:03:06.644 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-01 13:03:06.671 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-01 13:03:06.672 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-01 13:03:06.695 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.700 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.703 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.704 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.705 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.705 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.707 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.708 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.709 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.710 +08:00 [INF] Authorization was successful.
+2019-03-01 13:03:06.714 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-03-01 13:03:06.719 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-03-01 13:03:06.720 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetAsyncById
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetListAsyncByInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.CreateAsyncByInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.UpdateAsyncByIdAndInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.DeleteAsyncById
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetAsyncById
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetListAsyncByInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.CreateAsyncByInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.UpdateAsyncByIdAndInput
+2019-03-01 13:03:06.721 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.DeleteAsyncById
+2019-03-01 13:03:06.734 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 59.732800000000005ms.
+2019-03-01 13:03:06.735 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.772000000000006ms.
+2019-03-01 13:03:06.738 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 13:03:06.738 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-01 13:03:06.739 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 94.4886ms
+2019-03-01 13:03:06.739 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 103.9632ms
+2019-03-01 13:03:06.739 +08:00 [INF] Request finished in 119.0945ms 200 text/plain; charset=utf-8
+2019-03-01 13:03:06.739 +08:00 [INF] Request finished in 119.0962ms 200 text/plain; charset=utf-8
+2019-03-01 13:03:06.824 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:03:06.836 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:03:06.878 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:03:07.099 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 221.5488ms.
+2019-03-01 13:03:07.110 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:03:07.125 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 288.4511ms
+2019-03-01 13:03:07.125 +08:00 [INF] Request finished in 301.0895ms 200 application/json; charset=utf-8
+2019-03-01 13:03:09.956 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 13:03:10.246 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:03:10.261 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:03:10.300 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 13:03:10.300 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:03:10.300 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:03:10.516 +08:00 [INF] Executed page /JobSchedule/EditModal in 270.0276ms
+2019-03-01 13:03:10.516 +08:00 [INF] Request finished in 560.3003ms 200 text/html; charset=utf-8
+2019-03-01 13:03:16.074 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 13:03:16.089 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:03:16.160 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:03:16.171 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:03:16.216 +08:00 [INF] Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2019-03-01 13:03:16.219 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2019-03-01 13:03:16.226 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2019-03-01 13:03:16.228 +08:00 [INF] Quartz Scheduler v.3.0.7.0 created.
+2019-03-01 13:03:16.229 +08:00 [INF] RAMJobStore initialized.
+2019-03-01 13:03:16.234 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-01 13:03:16.235 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
+2019-03-01 13:03:16.235 +08:00 [INF] Quartz scheduler version: 3.0.7.0
+2019-03-01 13:03:16.285 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2019-03-01 13:03:16.297 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:16.299 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:03:16.301 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:16.306 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:16.312 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:16.337 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:16.348 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:16.388 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:03:16.388 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:03:16.389 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:03:16.392 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 13:03:16.394 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 13:03:16.394 +08:00 [INF] Executed page /JobSchedule/EditModal in 304.5219ms
+2019-03-01 13:03:16.507 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:03:16.507 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:03:16.514 +08:00 [INF] Request finished in 440.0227ms 204 
+2019-03-01 13:03:16.524 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:03:16.529 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:03:16.530 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:03:16.533 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.81ms.
+2019-03-01 13:03:16.533 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:03:16.533 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 4.2735ms
+2019-03-01 13:03:16.533 +08:00 [INF] Request finished in 9.4418ms 200 application/json; charset=utf-8
+2019-03-01 13:03:20.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:20.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:20.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:20.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:25.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:25.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:25.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:25.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:30.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:30.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:30.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:30.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:35.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:35.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:35.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:35.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:40.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:40.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:40.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:40.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:45.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:45.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:45.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:45.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:50.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:50.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:50.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:50.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:03:55.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:03:55.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:03:55.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:03:55.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:00.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:00.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:00.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:00.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:05.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:05.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:05.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:05.003 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:10.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:10.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:10.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:10.003 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:15.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:15.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:15.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:15.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:20.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:20.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:20.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:20.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:25.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:25.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:25.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:25.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:30.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:30.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:30.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:30.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:35.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:35.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:35.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:35.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:40.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:40.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:40.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:40.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:45.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:45.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:45.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:45.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:50.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:50.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:50.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:50.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:04:55.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:04:55.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:04:55.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:04:55.003 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:00.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:00.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:00.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:00.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:05.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:05.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:05.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:05.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:10.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:10.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:10.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:10.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:15.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:15.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:15.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:15.004 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:20.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:20.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:20.002 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:20.004 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:25.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:25.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:25.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:25.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:30.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:30.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:30.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:30.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:35.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:35.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:35.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:35.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:40.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:40.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:40.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:40.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:45.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:45.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:45.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:45.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:50.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:50.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:50.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:50.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:05:55.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:05:55.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:05:55.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:05:55.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:06:00.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:06:00.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:06:00.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:06:00.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:06:05.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:06:05.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:06:05.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:06:05.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:06:10.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:06:10.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:06:10.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:06:10.003 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:06:11.949 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 13:06:11.953 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:06:11.954 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:06:11.958 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 13:06:11.959 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:06:11.959 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:06:12.107 +08:00 [INF] Executed page /JobSchedule/EditModal in 153.8511ms
+2019-03-01 13:06:12.107 +08:00 [INF] Request finished in 158.0131ms 200 text/html; charset=utf-8
+2019-03-01 13:06:15.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:06:15.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:06:15.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:06:15.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:06:17.833 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 13:06:17.840 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:06:17.902 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:06:17.904 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:06:17.906 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:06:17.911 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:06:17.911 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:06:17.911 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:06:17.912 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 13:06:17.912 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 13:06:17.912 +08:00 [INF] Executed page /JobSchedule/EditModal in 71.787900000000008ms
+2019-03-01 13:06:17.917 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:06:17.917 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:06:17.917 +08:00 [INF] Request finished in 84.0179ms 204 
+2019-03-01 13:06:17.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:06:17.929 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:06:17.930 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:06:17.934 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.1584000000000003ms.
+2019-03-01 13:06:17.934 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:06:17.934 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 4.5869ms
+2019-03-01 13:06:17.934 +08:00 [INF] Request finished in 9.1904ms 200 application/json; charset=utf-8
+2019-03-01 13:06:45.451 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:07:12.894 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:07:37.950 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:07:43.726 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 13:07:43.730 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:07:43.731 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:07:43.734 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 13:07:43.734 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:07:43.734 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:07:43.890 +08:00 [INF] Executed page /JobSchedule/EditModal in 159.14780000000002ms
+2019-03-01 13:07:43.890 +08:00 [INF] Request finished in 163.6392ms 200 text/html; charset=utf-8
+2019-03-01 13:07:52.588 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 13:07:52.596 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:07:52.653 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:07:52.656 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:07:52.657 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:07:52.657 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:07:52.657 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:07:52.657 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:07:52.658 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:07:52.662 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:07:52.662 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:07:52.662 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:07:52.663 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 13:07:52.663 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 13:07:52.663 +08:00 [INF] Executed page /JobSchedule/EditModal in 66.345300000000009ms
+2019-03-01 13:07:52.668 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:07:52.668 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:07:52.669 +08:00 [INF] Request finished in 80.8008ms 204 
+2019-03-01 13:07:52.678 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:07:52.682 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:07:52.683 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:07:52.688 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.8642ms.
+2019-03-01 13:07:52.689 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:07:52.689 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 6.4460000000000006ms
+2019-03-01 13:07:52.689 +08:00 [INF] Request finished in 10.6356ms 200 application/json; charset=utf-8
+2019-03-01 13:07:55.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:07:55.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:07:55.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:07:55.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:08:00.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:08:00.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:08:00.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:08:00.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:08:05.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:08:05.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:08:05.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:08:05.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:08:10.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:08:10.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:08:10.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:08:10.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:08:10.163 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule/EditModal?id=1  
+2019-03-01 13:08:10.167 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:08:10.168 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:08:10.172 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-03-01 13:08:10.172 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-01 13:08:10.172 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-01 13:08:10.326 +08:00 [INF] Executed page /JobSchedule/EditModal in 158.8281ms
+2019-03-01 13:08:10.326 +08:00 [INF] Request finished in 163.0046ms 200 text/html; charset=utf-8
+2019-03-01 13:08:15.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:08:15.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:08:15.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:08:15.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:08:20.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Schedule.LogTestJob
+2019-03-01 13:08:20.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-01 13:08:20.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-01 13:08:20.004 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-01 13:08:20.089 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53929/JobSchedule/EditModal application/x-www-form-urlencoded; charset=UTF-8 636
+2019-03-01 13:08:20.270 +08:00 [INF] Route matched with {page = "/JobSchedule/EditModal", controller = "", area = "", action = ""}. Executing page /JobSchedule/EditModal
+2019-03-01 13:08:20.326 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.EditModalModel.OnPostAsync with arguments (null) - ModelState is "Valid"
+2019-03-01 13:08:20.329 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:08:20.329 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:08:20.333 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:08:20.333 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:08:20.333 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:08:20.334 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.NoContentResult.
+2019-03-01 13:08:20.334 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-03-01 13:08:20.334 +08:00 [INF] Executed page /JobSchedule/EditModal in 64.1761ms
+2019-03-01 13:08:20.340 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:08:20.341 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-03-01 13:08:20.343 +08:00 [INF] Request finished in 254.1905ms 204 
+2019-03-01 13:08:20.352 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-01 13:08:20.356 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-01 13:08:20.357 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-01 13:08:20.361 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.3274000000000004ms.
+2019-03-01 13:08:20.361 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-01 13:08:20.361 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 4.7823ms
+2019-03-01 13:08:20.361 +08:00 [INF] Request finished in 9.7965ms 200 application/json; charset=utf-8
+2019-03-01 13:08:49.142 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:09:16.217 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:09:45.484 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:10:13.127 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:10:42.353 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:11:06.367 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:11:32.672 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:11:59.000 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:12:26.442 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:12:51.672 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:13:15.953 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:13:43.699 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:14:08.789 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:14:36.794 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:15:04.785 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:15:30.540 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:15:55.722 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:16:23.833 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:16:52.987 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:17:16.478 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:17:41.307 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:18:05.972 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:18:32.108 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:18:59.731 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:19:29.302 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:19:52.470 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:20:17.678 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:20:44.588 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:21:14.235 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:21:37.786 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:22:05.636 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:22:30.372 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:23:00.196 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:23:29.247 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:23:55.504 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:24:18.880 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:24:44.354 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:25:09.943 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:25:36.850 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:26:04.470 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:26:28.664 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:26:55.341 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:27:19.512 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:27:48.223 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:28:13.591 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:28:40.643 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:29:09.871 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:29:37.257 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:30:02.146 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:30:29.039 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:30:52.042 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:31:15.276 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:31:43.888 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:32:13.400 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:32:42.583 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:33:11.766 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:33:37.207 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:34:04.418 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:34:30.614 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:34:58.531 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:35:25.696 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:35:53.876 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:36:19.094 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:36:46.321 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:37:11.285 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:37:38.994 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:38:05.392 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:38:33.413 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:39:01.472 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:39:29.099 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:39:56.030 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:40:22.028 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:40:47.933 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:41:16.236 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:41:45.284 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:42:08.741 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:42:35.016 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:43:01.864 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:43:25.865 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:43:53.149 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:44:20.237 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:44:46.915 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:45:14.618 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:45:42.496 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:46:05.704 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:46:32.663 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:46:56.000 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:47:19.475 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:47:45.886 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:48:09.513 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:48:34.929 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:49:00.476 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:49:26.484 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:49:50.162 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:50:14.801 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:50:44.479 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:51:10.275 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:51:36.762 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:52:01.437 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:52:28.248 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:52:55.320 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:53:22.865 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:53:49.189 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:54:17.682 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:54:42.551 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:55:12.049 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:55:39.252 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:56:02.777 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:56:25.869 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:56:49.362 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:57:16.505 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:57:39.874 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:58:03.688 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:58:28.753 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:58:57.067 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:59:23.913 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 13:59:48.814 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:00:15.341 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:00:43.690 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:01:08.290 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:01:36.733 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:02:06.073 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:02:30.195 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:02:58.946 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:03:22.843 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:03:46.294 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:04:15.814 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:04:40.234 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:05:06.463 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:05:35.257 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:06:02.503 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:06:31.956 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:06:56.163 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:07:24.648 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:07:47.732 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:08:15.325 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:08:42.775 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:09:12.207 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:09:38.514 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:10:04.832 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:10:31.695 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:10:58.694 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:11:24.106 +08:00 [DBG] Batch acquisition of 0 triggers
+2019-03-01 14:11:47.312 +08:00 [DBG] Batch acquisition of 0 triggers

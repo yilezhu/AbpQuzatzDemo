@@ -25,16 +25,8 @@
                             },
                             {
                                 text: l('ActionsDelete'),
-                                confirmMessage: function (data) {
-                                    return l('ActionsDeletionConfirmationMessage', data.record.name);
-                                },
                                 action: function (data) {
-                                    czar.abpDemo.bookStore.book
-                                        .delete(data.record.id)
-                                        .then(function () {
-                                            abp.notify.info(l('ActionsSuccessfullyDeleted'));
-                                            dataTable.ajax.reload();
-                                        });
+                                    editModal.open({ id: data.record.id });
                                 }
                             }
                         ]

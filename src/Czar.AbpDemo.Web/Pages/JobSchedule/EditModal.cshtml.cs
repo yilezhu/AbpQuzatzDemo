@@ -49,9 +49,14 @@ namespace Czar.AbpDemo.Web.Pages.JobSchedule
         {
             var jobInfoDto = await _jobInfoAppService.GetAsync(Id);
             ScheduleResult result=new ScheduleResult();
+            
             if (jobInfoDto.JobStatus != JobInfo.JobStatus)
             {
-              
+                if (jobInfoDto.JobStatus == JobStatu.Deleted)
+                {
+                    //如果之前的状态是已删除的话，先创建任务再进行操作
+                    await _scheduleCenter.AddJobAsync(JobInfo);
+                }
                 if (JobInfo.JobStatus == JobStatu.Deleted)
                 {
                     result = await _scheduleCenter.DeleteJobAsync(JobInfo.JobName, JobInfo.JobGroup);
