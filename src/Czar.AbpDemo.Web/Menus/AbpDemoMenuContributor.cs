@@ -27,6 +27,7 @@ namespace Czar.AbpDemo.Menus
             context.Menu.AddItem(
                new ApplicationMenuItem("JobSchedule", l["Menu:JobSchedule"])
                    .AddItem(new ApplicationMenuItem("JobSchedule.JobInfo", l["Menu:JobInfo"], url: "/JobSchedule")));
+             await Task.CompletedTask;
         }
     }
 }

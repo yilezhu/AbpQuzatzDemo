@@ -21,7 +21,7 @@ namespace Czar.AbpDemo.Web.Pages.JobSchedule
         public int Id { get; set; }
 
         [BindProperty]
-        public CreateUpdateJobInfoDto  JobInfo { get; set; }
+        public CreateUpdateJobInfoDto JobInfo { get; set; }
 
         private readonly IJobInfoAppService _jobInfoAppService;
         private readonly ScheduleCenter _scheduleCenter;
@@ -47,21 +47,34 @@ namespace Czar.AbpDemo.Web.Pages.JobSchedule
         /// <returns></returns>
         public async Task<IActionResult> OnPostAsync()
         {
-            if (JobInfo.JobStatus == JobStatu.Deleted)
+            var jobInfoDto = await _jobInfoAppService.GetAsync(Id);
+            ScheduleResult result=new ScheduleResult();
+            if (jobInfoDto.JobStatus != JobInfo.JobStatus)
             {
-                await _scheduleCenter.DeleteJobAsync(JobInfo.JobName, JobInfo.JobGroup);
-                await _jobInfoAppService.DeleteAsync(Id);
-                return NoContent();
+              
+                if (JobInfo.JobStatus == JobStatu.Deleted)
+                {
+                    result = await _scheduleCenter.DeleteJobAsync(JobInfo.JobName, JobInfo.JobGroup);
+                    if (result.Code == 0)
+                    {
+                        await _jobInfoAppService.DeleteAsync(Id);
+                    }
+                    return NoContent();
+                }
+                else if (JobInfo.JobStatus == JobStatu.Running)
+                {
+                    result = await _scheduleCenter.ResumeJobAsync(JobInfo.JobName, JobInfo.JobGroup);
+                }
+                else
+                {
+                    result = await _scheduleCenter.StopJobAsync(JobInfo.JobName, JobInfo.JobGroup);
+                }
+               
             }
-            if (JobInfo.JobStatus == JobStatu.Running)
+            if (result.Code == 0)
             {
-                await _scheduleCenter.AddJobAsync(JobInfo);
+                await _jobInfoAppService.UpdateAsync(Id, JobInfo);
             }
-            else if (JobInfo.JobStatus == JobStatu.Stopped)
-            {
-                await _scheduleCenter.StopJobAsync(JobInfo.JobName, JobInfo.JobGroup);
-            }
-            await _jobInfoAppService.UpdateAsync(Id, JobInfo);
             return NoContent();
         }
     }

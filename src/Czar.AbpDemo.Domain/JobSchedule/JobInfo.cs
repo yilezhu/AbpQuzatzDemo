@@ -28,6 +28,12 @@ namespace Czar.AbpDemo.JobSchedule
         public string JobDescription { get; set; }
         [Required, StringLength(64), Display(Name = "任务名")]
         public string JobName { get; set; }
+        [Required, StringLength(256), Display(Name = "程序集名称")]
+        public string JobAssemblyName { get; set; }
+        [Required, StringLength(256), Display(Name = "命名空间")]
+        public string JobNamespace { get; set; }
+        [Required, StringLength(128), Display(Name = "任务类名")]
+        public string JobClassName { get; set; }
         [Required, Display(Name = "运行状态")]
         public JobStatu JobStatus { get; set; } = JobStatu.Stopped;
         [Required, StringLength(64), Display(Name = "Cron表达式")]

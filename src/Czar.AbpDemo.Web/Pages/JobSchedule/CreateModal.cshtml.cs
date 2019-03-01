@@ -44,8 +44,8 @@ namespace Czar.AbpDemo.Web.Pages.JobSchedule
         /// <returns></returns>
         public async Task<IActionResult> OnPostAsync()
         {
-
-            if (await _scheduleCenter.AddJobAsync(JobInfo))
+            var result = await _scheduleCenter.AddJobAsync(JobInfo);
+            if (result.Code==0)
             {
                 JobInfo.JobStatus = JobStatu.Running;
                 await _jobInfoAppService.CreateAsync(JobInfo);

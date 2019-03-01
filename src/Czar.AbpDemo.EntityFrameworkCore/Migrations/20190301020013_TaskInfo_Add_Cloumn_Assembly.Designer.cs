@@ -4,14 +4,16 @@ using Czar.AbpDemo.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Czar.AbpDemo.Migrations
 {
     [DbContext(typeof(AbpDemoDbContext))]
-    partial class AbpDemoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190301020013_TaskInfo_Add_Cloumn_Assembly")]
+    partial class TaskInfo_Add_Cloumn_Assembly
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

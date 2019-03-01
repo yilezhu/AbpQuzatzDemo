@@ -28,6 +28,12 @@ namespace Czar.AbpDemo.JobSchedule
 
         public string JobName { get; set; }
 
+        public string JobAssemblyName { get; set; }
+
+        public string JobNamespace { get; set; }
+
+        public string JobClassName { get; set; }
+
         public JobStatu JobStatus { get; set; } 
 
         public string CronExpress { get; set; }
