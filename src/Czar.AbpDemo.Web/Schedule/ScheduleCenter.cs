@@ -3,21 +3,24 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Quartz;
 using Quartz.Impl;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 using Volo.Abp.DependencyInjection;
+using ILogger = Serilog.ILogger;
 
 namespace Czar.AbpDemo.Schedule
 {
     /// <summary>
     /// 任务调度中心
     /// </summary>
-    public class ScheduleCenter: ISingletonDependency
+    public class ScheduleCenter : ISingletonDependency
     {
-        private readonly ILogger _logger;
+        private readonly ILogger<ScheduleCenter> _logger;
+
         public ScheduleCenter(ILogger<ScheduleCenter> logger)
         {
             _logger = logger;
@@ -35,21 +38,37 @@ namespace Czar.AbpDemo.Schedule
             }
             else
             {
-                // 从Factory中获取Scheduler实例
-                NameValueCollection props = new NameValueCollection
+                
+                NameValueCollection parms = new NameValueCollection
                 {
-                    { "quartz.serializer.type", "binary" },
-                    //以下配置需要数据库表配合使用，表结构sql地址：https://github.com/quartznet/quartznet/tree/master/database/tables
-                    //{ "quartz.jobStore.type","Quartz.Impl.AdoJobStore.JobStoreTX, Quartz"},
-                    //{ "quartz.jobStore.driverDelegateType","Quartz.Impl.AdoJobStore.StdAdoDelegate, Quartz"},
-                    //{ "quartz.jobStore.tablePrefix","QRTZ_"},
-                    //{ "quartz.jobStore.dataSource","myDS"},
-                    //{ "quartz.dataSource.myDS.connectionString",AppSettingHelper.MysqlConnection},//连接字符串
-                    //{ "quartz.dataSource.myDS.provider","MySql"},
-                    //{ "quartz.jobStore.usePropert ies","true"}
-
+                    ////scheduler名字
+                    ["quartz.scheduler.instanceName"] = "TestScheduler",
+                    //序列化类型
+                    ["quartz.serializer.type"] = "binary",//json,切换为数据库存储的时候需要设置json
+                    //自动生成scheduler实例ID，主要为了保证集群中的实例具有唯一标识
+                    //["quartz.scheduler.instanceId"] = "AUTO",
+                    ////是否配置集群
+                    //["quartz.jobStore.clustered"] = "true",
+                    ////线程池个数
+                    //["quartz.threadPool.threadCount"] = "20",
+                    ////类型为JobStoreXT,事务
+                    //["quartz.jobStore.type"] = "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
+                    ////以下配置需要数据库表配合使用，表结构sql地址：https://github.com/quartznet/quartznet/tree/master/database/tables
+                    ////JobDataMap中的数据都是字符串
+                    ////["quartz.jobStore.useProperties"] = "true",
+                    ////数据源名称
+                    //["quartz.jobStore.dataSource"] = "myDS",
+                    ////数据表名前缀
+                    //["quartz.jobStore.tablePrefix"] = "QRTZ_",
+                    ////使用Sqlserver的Ado操作代理类
+                    //["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.SqlServerDelegate, Quartz",
+                    ////数据源连接字符串
+                    //["quartz.dataSource.myDS.connectionString"] = "Server=[yourserver];Database=quartzDb;Uid=sa;Pwd=[yourpass]",
+                    ////数据源的数据库
+                    //["quartz.dataSource.myDS.provider"] = "SqlServer"
                 };
-                StdSchedulerFactory factory = new StdSchedulerFactory(props);
+                // 从Factory中获取Scheduler实例
+                StdSchedulerFactory factory = new StdSchedulerFactory(parms);
                 return await factory.GetScheduler();
 
             }
@@ -104,11 +123,15 @@ namespace Czar.AbpDemo.Schedule
                 ICronTrigger trigger = (ICronTrigger)TriggerBuilder.Create()
                                              .StartAt(starRunTime)
                                              .EndAt(endRunTime)
+                                             .UsingJobData("ServerName", scheduler.SchedulerName)
                                              .WithIdentity(infoDto.JobName, infoDto.JobGroup)
                                              .WithCronSchedule(infoDto.CronExpress)
                                              .Build();
                 await scheduler.ScheduleJob(job, trigger);
-                await scheduler.Start();
+                if (!scheduler.IsStarted)
+                {
+                    await scheduler.Start();
+                }
                 return result;
             }
             catch (Exception ex)
@@ -169,11 +192,16 @@ namespace Czar.AbpDemo.Schedule
                 ICronTrigger trigger = (ICronTrigger)TriggerBuilder.Create()
                                              .StartAt(starRunTime)
                                              .EndAt(endRunTime)
+                                             .UsingJobData("ServerName", infoDto.JobName)
                                              .WithIdentity(infoDto.JobName, infoDto.JobGroup)
                                              .WithCronSchedule(infoDto.CronExpress)
                                              .Build();
                 await scheduler.ScheduleJob(job, trigger);
-                await scheduler.Start();
+                if (!scheduler.IsStarted)
+                {
+                    await scheduler.Start();
+                }
+                
                 return result;
             }
             catch (Exception ex)
