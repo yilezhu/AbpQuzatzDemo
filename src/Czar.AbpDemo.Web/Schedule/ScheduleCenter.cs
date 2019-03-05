@@ -8,13 +8,14 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
+using Volo.Abp.DependencyInjection;
 
 namespace Czar.AbpDemo.Schedule
 {
     /// <summary>
     /// 任务调度中心
     /// </summary>
-    public class ScheduleCenter
+    public class ScheduleCenter: ISingletonDependency
     {
         private readonly ILogger _logger;
         public ScheduleCenter(ILogger<ScheduleCenter> logger)
@@ -51,6 +52,71 @@ namespace Czar.AbpDemo.Schedule
                 StdSchedulerFactory factory = new StdSchedulerFactory(props);
                 return await factory.GetScheduler();
 
+            }
+        }
+
+        /// <summary>
+        /// 添加调度任务
+        /// </summary>
+        /// <param name="jobName">任务名称</param>
+        /// <param name="jobGroup">任务分组</param>
+        /// <returns></returns>
+        public async Task<ScheduleResult> AddJobAsync(JobInfoDto infoDto)
+        {
+            ScheduleResult result = new ScheduleResult();
+            try
+            {
+                if (infoDto == null)
+                {
+                    result.Code = -3;
+                    result.Message = $"参数{typeof(CreateUpdateJobInfoDto)}不能为空";
+                    return result;//出现异常
+                }
+
+                if (infoDto.StarTime == null)
+                {
+                    infoDto.StarTime = DateTime.Now;
+                }
+                DateTimeOffset starRunTime = DateBuilder.NextGivenSecondDate(infoDto.StarTime, 1);
+                if (infoDto.EndTime == null)
+                {
+                    infoDto.EndTime = DateTime.MaxValue.AddDays(-1);
+                }
+                DateTimeOffset endRunTime = DateBuilder.NextGivenSecondDate(infoDto.EndTime, 1);
+                scheduler = await GetSchedulerAsync();
+                JobKey jobKey = new JobKey(infoDto.JobName, infoDto.JobGroup);
+                if (await scheduler.CheckExists(jobKey))
+                {
+                    await scheduler.PauseJob(jobKey);
+                    await scheduler.DeleteJob(jobKey);
+                }
+                //var jobType =Type.GetType("Czar.AbpDemo.Schedule.LogTestJob,Czar.AbpDemo.Web");
+                var jobType = Type.GetType(infoDto.JobNamespace + "." + infoDto.JobClassName + "," + infoDto.JobAssemblyName);
+                if (jobType == null)
+                {
+                    result.Code = -1;
+                    result.Message = "系统找不到对应的任务，请重新设置";
+                    return result;//出现异常
+                }
+                IJobDetail job = JobBuilder.Create(jobType)
+                .WithIdentity(jobKey)
+                .Build();
+                ICronTrigger trigger = (ICronTrigger)TriggerBuilder.Create()
+                                             .StartAt(starRunTime)
+                                             .EndAt(endRunTime)
+                                             .WithIdentity(infoDto.JobName, infoDto.JobGroup)
+                                             .WithCronSchedule(infoDto.CronExpress)
+                                             .Build();
+                await scheduler.ScheduleJob(job, trigger);
+                await scheduler.Start();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogException(ex);
+                result.Code = -4;
+                result.Message = ex.ToString();
+                return result;//出现异常
             }
         }
 

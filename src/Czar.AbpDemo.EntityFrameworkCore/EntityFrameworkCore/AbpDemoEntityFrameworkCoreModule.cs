@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Czar.AbpDemo.JobSchedule;
+using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.SqlServer;
@@ -26,6 +27,7 @@ namespace Czar.AbpDemo.EntityFrameworkCore
             {
                 //Remove "includeAllEntities: true" to create default repositories only for aggregate roots
                 options.AddDefaultRepositories(includeAllEntities: true);
+                options.AddRepository<JobInfo, JobInfoRepository>(); 
             });
         }
     }

@@ -12,13 +12,17 @@
 */
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
+using Volo.Abp;
 using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;
 using Volo.Abp.Domain.Repositories;
 
 namespace Czar.AbpDemo.JobSchedule
 {
+    
     public class JobInfoAppService :
         AsyncCrudAppService<//实现了CRUD方法
             JobInfo,//JobInfo实体
@@ -29,10 +33,31 @@ namespace Czar.AbpDemo.JobSchedule
             CreateUpdateJobInfoDto>,//用户更新书籍
         IJobInfoAppService
     {
+        private readonly IJobInfoRepository _repository;
         //注入了IRepository<JobInfo, ins32>是默认为JobInfo创建的仓储.ABP会自动为每一个聚合根(或实体)创建仓储
-        public JobInfoAppService(IRepository<JobInfo, int> repository) : base(repository)
+        public JobInfoAppService(IJobInfoRepository repository) : base(repository)
         {
+            _repository = repository;
+        }
 
+        [RemoteService(IsEnabled = false)]
+        public async Task<List<JobInfoDto>> GetListByJobStatuAsync(JobStatu jobStatu)
+        {
+            var result = await _repository.GetListByJobStatuAsync(jobStatu);
+            return ObjectMapper.Map<List<JobInfo>,List<JobInfoDto>>(result);
+        }
+
+        [RemoteService(IsEnabled = false)]
+        public async Task<bool> ResumeSystemStoppedAsync()
+        {
+            return await _repository.ResumeSystemStoppedAsync();
+
+        }
+
+        [RemoteService(IsEnabled = false)]
+        public async Task<bool> SystemStoppedAsync()
+        {
+            return await _repository.SystemStoppedAsync();
         }
     }
 }

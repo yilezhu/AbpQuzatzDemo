@@ -63,7 +63,6 @@ namespace Czar.AbpDemo
         {
             var hostingEnvironment = context.Services.GetHostingEnvironment();
             var configuration = context.Services.GetConfiguration();
-            context.Services.AddSingleton<ScheduleCenter>();
             ConfigureDatabaseServices();
             ConfigureAutoMapper();
             ConfigureVirtualFileSystem(hostingEnvironment);
@@ -149,7 +148,6 @@ namespace Czar.AbpDemo
         {
             var app = context.GetApplicationBuilder();
             var env = context.GetEnvironment();
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

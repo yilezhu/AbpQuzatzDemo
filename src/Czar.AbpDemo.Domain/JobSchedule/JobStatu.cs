@@ -25,6 +25,8 @@ namespace Czar.AbpDemo.JobSchedule
         Completed,
         [Description("已停止")]
         Stopped,
+        [Description("系统停止")]
+        SystemStopped,
         [Description("已删除")]
         Deleted,
     }
