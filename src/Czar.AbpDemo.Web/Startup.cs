@@ -30,13 +30,6 @@ namespace Czar.AbpDemo
             , IApplicationLifetime applicationLifetime
             )
         {
-            loggerFactory
-                .AddSerilog(new LoggerConfiguration()
-                    .Enrich.FromLogContext()
-                    .WriteTo.File("Logs/" + DateTime.Now.ToString("yyyy-MM-dd") + "Systemlogs.txt")
-                    .CreateLogger()
-                );
-
             var jobInfoAppService = app.ApplicationServices.GetRequiredService<IJobInfoAppService>();
             var scheduleCenter = app.ApplicationServices.GetRequiredService<ScheduleCenter>();
             applicationLifetime.ApplicationStarted.Register(async () =>

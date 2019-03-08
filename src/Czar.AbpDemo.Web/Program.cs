@@ -14,7 +14,7 @@ namespace Czar.AbpDemo
                 .MinimumLevel.Debug() //TODO: Should be configurable!
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
                 .Enrich.FromLogContext()
-                .WriteTo.File("Logs/logs.txt")
+                .WriteTo.File("Logs/logs.txt",rollingInterval:RollingInterval.Day)
                 .CreateLogger();
 
             try

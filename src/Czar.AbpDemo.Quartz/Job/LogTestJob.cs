@@ -13,19 +13,13 @@ namespace Czar.AbpDemo.Job
     {
         public async Task Execute(IJobExecutionContext context)
         {
-            JobDataMap dataMap = context.Trigger.JobDataMap;
+            JobDataMap dataMap = context.JobDetail.JobDataMap;
             string serverName = dataMap.GetString("ServerName");
-            using (var logger = new LoggerConfiguration()
-                    .Enrich.FromLogContext()
-                    .WriteTo.File("Logs/" + DateTime.Now.ToString("yyyy-MM-dd") + "logs.txt")
-                    .CreateLogger())
+            if (string.IsNullOrEmpty(serverName))
             {
-                if (string.IsNullOrEmpty(serverName)) serverName = "kong";
-                logger.Information(DateTime.Now.ToString($"yyyy-MM-dd HH:mm:ss {serverName}"));
-                //AsyncHelper.RunSync(Test);
-                //logger.Information(DateTime.Now.ToString($"yyyy-MM-dd HH:mm:ss  {serverName}"));
+                serverName = "kong";
             }
-
+            Log.Information(serverName);
             await Task.CompletedTask;
         }
 
