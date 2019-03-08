@@ -18,58 +18,61 @@ namespace Czar.AbpDemo
     public class ScheduleCenter
     {
         private readonly ILogger<ScheduleCenter> _logger;
+        private readonly object Locker = new object();
+
+
 
         public ScheduleCenter(ILogger<ScheduleCenter> logger)
         {
             _logger = logger;
         }
-
         /// <summary>
         /// 任务计划
         /// </summary>
-        public IScheduler scheduler = null;
-        public async Task<IScheduler> GetSchedulerAsync()
+        private IScheduler Scheduler ;
+        private IScheduler GetScheduler()
         {
-            if (scheduler != null)
+            if (Scheduler == null)
             {
-                return scheduler;
-            }
-            else
-            {
-
-                NameValueCollection parms = new NameValueCollection
+                lock (Locker)
                 {
-                    ////scheduler名字
-                    ["quartz.scheduler.instanceName"] = "TestScheduler",
-                    //序列化类型
-                    ["quartz.serializer.type"] = "binary",//json,切换为数据库存储的时候需要设置json
-                    //自动生成scheduler实例ID，主要为了保证集群中的实例具有唯一标识
-                    //["quartz.scheduler.instanceId"] = "AUTO",
-                    ////是否配置集群
-                    //["quartz.jobStore.clustered"] = "true",
-                    ////线程池个数
-                    //["quartz.threadPool.threadCount"] = "20",
-                    ////类型为JobStoreXT,事务
-                    //["quartz.jobStore.type"] = "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
-                    ////以下配置需要数据库表配合使用，表结构sql地址：https://github.com/quartznet/quartznet/tree/master/database/tables
-                    ////JobDataMap中的数据都是字符串
-                    ////["quartz.jobStore.useProperties"] = "true",
-                    ////数据源名称
-                    //["quartz.jobStore.dataSource"] = "myDS",
-                    ////数据表名前缀
-                    //["quartz.jobStore.tablePrefix"] = "QRTZ_",
-                    ////使用Sqlserver的Ado操作代理类
-                    //["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.SqlServerDelegate, Quartz",
-                    ////数据源连接字符串
-                    //["quartz.dataSource.myDS.connectionString"] = "Server=[yourserver];Database=quartzDb;Uid=sa;Pwd=[yourpass]",
-                    ////数据源的数据库
-                    //["quartz.dataSource.myDS.provider"] = "SqlServer"
-                };
-                // 从Factory中获取Scheduler实例
-                StdSchedulerFactory factory = new StdSchedulerFactory(parms);
-                return await factory.GetScheduler();
-
+                    if (Scheduler == null)
+                    {
+                        NameValueCollection parms = new NameValueCollection
+                        {
+                            ////scheduler名字
+                            ["quartz.scheduler.instanceName"] = "TestScheduler",
+                            //序列化类型
+                            ["quartz.serializer.type"] = "binary",//json,切换为数据库存储的时候需要设置json
+                                                                  //自动生成scheduler实例ID，主要为了保证集群中的实例具有唯一标识
+                                                                  //["quartz.scheduler.instanceId"] = "AUTO",
+                                                                  ////是否配置集群
+                                                                  //["quartz.jobStore.clustered"] = "true",
+                                                                  ////线程池个数
+                                                                  //["quartz.threadPool.threadCount"] = "20",
+                                                                  ////类型为JobStoreXT,事务
+                                                                  //["quartz.jobStore.type"] = "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
+                                                                  ////以下配置需要数据库表配合使用，表结构sql地址：https://github.com/quartznet/quartznet/tree/master/database/tables
+                                                                  ////JobDataMap中的数据都是字符串
+                                                                  ////["quartz.jobStore.useProperties"] = "true",
+                                                                  ////数据源名称
+                                                                  //["quartz.jobStore.dataSource"] = "myDS",
+                                                                  ////数据表名前缀
+                                                                  //["quartz.jobStore.tablePrefix"] = "QRTZ_",
+                                                                  ////使用Sqlserver的Ado操作代理类
+                                                                  //["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.SqlServerDelegate, Quartz",
+                                                                  ////数据源连接字符串
+                                                                  //["quartz.dataSource.myDS.connectionString"] = "Server=[yourserver];Database=quartzDb;Uid=sa;Pwd=[yourpass]",
+                                                                  ////数据源的数据库
+                                                                  //["quartz.dataSource.myDS.provider"] = "SqlServer"
+                        };
+                        // 从Factory中获取Scheduler实例
+                        StdSchedulerFactory factory = new StdSchedulerFactory(parms);
+                        Scheduler= factory.GetScheduler().GetAwaiter().GetResult();
+                    }
+                }
             }
+            return Scheduler;
         }
 
         /// <summary>
@@ -104,12 +107,11 @@ namespace Czar.AbpDemo
                     EndTime = DateTime.MaxValue.AddDays(-1);
                 }
                 DateTimeOffset endRunTime = DateBuilder.NextGivenSecondDate(EndTime, 1);
-                scheduler = await GetSchedulerAsync();
                 JobKey jobKey = new JobKey(JobName, JobGroup);
-                if (await scheduler.CheckExists(jobKey))
+                if (await GetScheduler().CheckExists(jobKey))
                 {
-                    await scheduler.PauseJob(jobKey);
-                    await scheduler.DeleteJob(jobKey);
+                    await GetScheduler().PauseJob(jobKey);
+                    await GetScheduler().DeleteJob(jobKey);
                 }
                 //var jobType =Type.GetType("Czar.AbpDemo.Schedule.LogTestJob,Czar.AbpDemo.Web");
                 var jobType = Type.GetType(JobNamespaceAndClassName + "," + JobAssemblyName);
@@ -125,14 +127,14 @@ namespace Czar.AbpDemo
                 ICronTrigger trigger = (ICronTrigger)TriggerBuilder.Create()
                                              .StartAt(starRunTime)
                                              .EndAt(endRunTime)
-                                             .UsingJobData("ServerName", scheduler.SchedulerName)
+                                             .UsingJobData("ServerName", GetScheduler().SchedulerName)
                                              .WithIdentity(JobName, JobGroup)
                                              .WithCronSchedule(CronExpress)
                                              .Build();
-                await scheduler.ScheduleJob(job, trigger);
-                if (!scheduler.IsStarted)
+                await GetScheduler().ScheduleJob(job, trigger);
+                if (!GetScheduler().IsStarted)
                 {
-                    await scheduler.Start();
+                    await GetScheduler().Start();
                 }
                 return result;
             }
@@ -158,10 +160,10 @@ namespace Czar.AbpDemo
             try
             {
                 JobKey jobKey = new JobKey(jobName, jobGroup);
-                scheduler = await GetSchedulerAsync();
-                if (await scheduler.CheckExists(jobKey))
+
+                if (await GetScheduler().CheckExists(jobKey))
                 {
-                    await scheduler.PauseJob(new JobKey(jobName, jobGroup));
+                    await GetScheduler().PauseJob(new JobKey(jobName, jobGroup));
 
                 }
                 else
@@ -193,12 +195,12 @@ namespace Czar.AbpDemo
             try
             {
                 JobKey jobKey = new JobKey(jobName, jobGroup);
-                scheduler = await GetSchedulerAsync();
-                if (await scheduler.CheckExists(jobKey))
+
+                if (await GetScheduler().CheckExists(jobKey))
                 {
                     //resumejob 恢复
-                    await scheduler.PauseJob(jobKey);
-                    await scheduler.ResumeJob(jobKey);
+                    await GetScheduler().PauseJob(jobKey);
+                    await GetScheduler().ResumeJob(jobKey);
                 }
                 else
                 {
@@ -227,12 +229,12 @@ namespace Czar.AbpDemo
             try
             {
                 JobKey jobKey = new JobKey(jobName, jobGroup);
-                scheduler = await GetSchedulerAsync();
-                if (await scheduler.CheckExists(jobKey))
+
+                if (await GetScheduler().CheckExists(jobKey))
                 {
                     //先暂停，再移除
-                    await scheduler.PauseJob(jobKey);
-                    await scheduler.DeleteJob(jobKey);
+                    await GetScheduler().PauseJob(jobKey);
+                    await GetScheduler().DeleteJob(jobKey);
                 }
                 else
                 {

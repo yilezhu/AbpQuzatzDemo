@@ -4222,3 +4222,664 @@ Autofac.Core.Registration.ComponentNotRegisteredException: The requested service
 2019-03-08 12:38:45.002 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
 2019-03-08 12:38:45.002 +08:00 [DBG] Batch acquisition of 1 triggers
 2019-03-08 12:38:45.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:04:48.379 +08:00 [INF] Starting web host.
+2019-03-08 13:04:49.470 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:05:02.825 +08:00 [INF] Starting web host.
+2019-03-08 13:05:03.823 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:06:43.037 +08:00 [INF] Starting web host.
+2019-03-08 13:06:47.323 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:06:58.719 +08:00 [INF] Starting web host.
+2019-03-08 13:06:59.691 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:07:13.240 +08:00 [INF] Starting web host.
+2019-03-08 13:07:14.196 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:07:27.529 +08:00 [INF] Starting web host.
+2019-03-08 13:07:28.496 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:08:27.912 +08:00 [INF] Starting web host.
+2019-03-08 13:08:28.993 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:08:42.680 +08:00 [INF] Starting web host.
+2019-03-08 13:08:43.660 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:12:55.014 +08:00 [INF] Starting web host.
+2019-03-08 13:12:56.114 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:12:56.295 +08:00 [INF] Loaded modules:
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-08 13:12:56.295 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-08 13:12:56.296 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-08 13:12:56.297 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-08 13:12:56.297 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-08 13:12:56.297 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-08 13:12:56.335 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-08 13:12:56.335 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-08 13:12:56.338 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-08 13:12:56.338 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-08 13:12:56.338 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-08 13:12:56.574 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-08 13:12:57.820 +08:00 [INF] Initialized all modules.
+2019-03-08 13:12:57.979 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-08 13:13:54.426 +08:00 [INF] Starting web host.
+2019-03-08 13:13:55.944 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:13:56.161 +08:00 [INF] Loaded modules:
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-08 13:13:56.161 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-08 13:13:56.162 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-08 13:13:56.163 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-08 13:13:56.214 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-08 13:13:56.214 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-08 13:13:56.217 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-08 13:13:56.217 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-08 13:13:56.217 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-08 13:13:56.490 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-08 13:13:57.788 +08:00 [INF] Initialized all modules.
+2019-03-08 13:18:40.484 +08:00 [INF] Starting web host.
+2019-03-08 13:18:41.657 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:18:41.831 +08:00 [INF] Loaded modules:
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-08 13:18:41.831 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-08 13:18:41.832 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-08 13:18:41.871 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-08 13:18:41.871 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-08 13:18:41.874 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-08 13:18:41.875 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-08 13:18:41.875 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-08 13:18:42.111 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-08 13:18:43.379 +08:00 [INF] Initialized all modules.
+2019-03-08 13:18:43.648 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-08 13:18:43.725 +08:00 [INF] Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2019-03-08 13:18:43.730 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2019-03-08 13:18:43.737 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2019-03-08 13:18:43.739 +08:00 [INF] Quartz Scheduler v.3.0.7.0 created.
+2019-03-08 13:18:43.740 +08:00 [INF] RAMJobStore initialized.
+2019-03-08 13:18:43.746 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'TestScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-08 13:18:43.746 +08:00 [INF] Quartz scheduler 'TestScheduler' initialized
+2019-03-08 13:18:43.746 +08:00 [INF] Quartz scheduler version: 3.0.7.0
+2019-03-08 13:18:43.806 +08:00 [INF] Scheduler TestScheduler_$_NON_CLUSTERED started.
+2019-03-08 13:18:43.823 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:18:43.835 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:18:43.842 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:18:43.875 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:18:43.887 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:18:45.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:18:45.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:18:45.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:18:45.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:18:45.490 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-03-08 13:18:45.502 +08:00 [INF] Executing handler method Czar.AbpDemo.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-08 13:18:45.503 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-08 13:18:45.505 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-08 13:18:45.505 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-08 13:18:45.895 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 7.71 ms.
+2019-03-08 13:18:46.408 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:46.417 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.514 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 3.27 ms.
+2019-03-08 13:18:47.535 +08:00 [INF] Executed page /Index in 2042.2803000000001ms
+2019-03-08 13:18:47.547 +08:00 [INF] Request finished in 3899.9446ms 200 text/html; charset=utf-8
+2019-03-08 13:18:47.611 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-08 13:18:47.614 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-08 13:18:47.631 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-08 13:18:47.641 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-08 13:18:47.661 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-08 13:18:47.667 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-08 13:18:47.673 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.679 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.683 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.688 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.692 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.692 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.695 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.697 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.698 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.701 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:47.713 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-03-08 13:18:47.720 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-03-08 13:18:47.721 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-03-08 13:18:47.722 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetAsyncById
+2019-03-08 13:18:47.723 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetListAsyncByInput
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.CreateAsyncByInput
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.UpdateAsyncByIdAndInput
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.DeleteAsyncById
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetAsyncById
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetListAsyncByInput
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.CreateAsyncByInput
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.UpdateAsyncByIdAndInput
+2019-03-08 13:18:47.724 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.DeleteAsyncById
+2019-03-08 13:18:47.726 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 62.788500000000006ms.
+2019-03-08 13:18:47.732 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 13:18:47.733 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 102.63860000000001ms
+2019-03-08 13:18:47.734 +08:00 [INF] Request finished in 122.4593ms 200 text/plain; charset=utf-8
+2019-03-08 13:18:47.742 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 74.350000000000009ms.
+2019-03-08 13:18:47.743 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 13:18:47.743 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 102.0049ms
+2019-03-08 13:18:47.743 +08:00 [INF] Request finished in 129.1127ms 200 text/plain; charset=utf-8
+2019-03-08 13:18:49.944 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/JobSchedule  
+2019-03-08 13:18:50.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:18:50.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:18:50.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:18:50.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:18:50.206 +08:00 [INF] Route matched with {page = "/JobSchedule/Index", controller = "", area = "", action = ""}. Executing page /JobSchedule/Index
+2019-03-08 13:18:50.206 +08:00 [INF] Executing handler method Czar.AbpDemo.Web.Pages.JobSchedule.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-08 13:18:50.206 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-08 13:18:50.206 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-08 13:18:50.206 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-08 13:18:50.243 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.39 ms.
+2019-03-08 13:18:50.244 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.245 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.249 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.73 ms.
+2019-03-08 13:18:50.255 +08:00 [DBG] Added bundle 'Pages.JobSchedule.index' to the page in 0.58 ms.
+2019-03-08 13:18:50.256 +08:00 [INF] Executed page /JobSchedule/Index in 50.1927ms
+2019-03-08 13:18:50.256 +08:00 [INF] Request finished in 312.031ms 200 text/html; charset=utf-8
+2019-03-08 13:18:50.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-08 13:18:50.293 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-08 13:18:50.301 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-08 13:18:50.301 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-08 13:18:50.302 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-08 13:18:50.302 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-08 13:18:50.302 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.12710000000000002ms.
+2019-03-08 13:18:50.302 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 13:18:50.303 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.4859ms
+2019-03-08 13:18:50.303 +08:00 [INF] Request finished in 11.3501ms 200 text/plain; charset=utf-8
+2019-03-08 13:18:50.303 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.303 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.304 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.304 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.304 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.305 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.305 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.305 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.306 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.306 +08:00 [INF] Authorization was successful.
+2019-03-08 13:18:50.307 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.3235ms.
+2019-03-08 13:18:50.307 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 13:18:50.307 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 6.1795ms
+2019-03-08 13:18:50.307 +08:00 [INF] Request finished in 13.9295ms 200 text/plain; charset=utf-8
+2019-03-08 13:18:50.439 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/api/app/jobInfo?skipCount=0&maxResultCount=10&sorting=jobGroup%20asc application/json 
+2019-03-08 13:18:50.449 +08:00 [INF] Route matched with {action = "GetListAsync", controller = "JobInfo", area = "", page = ""}. Executing action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application)
+2019-03-08 13:18:50.459 +08:00 [INF] Executing action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) with arguments (["Volo.Abp.Application.Dtos.PagedAndSortedResultRequestDto"]) - Validation state: "Valid"
+2019-03-08 13:18:50.585 +08:00 [INF] Executed action method Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 125.7016ms.
+2019-03-08 13:18:50.585 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[Czar.AbpDemo.JobSchedule.JobInfoDto, Czar.AbpDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-03-08 13:18:50.602 +08:00 [INF] Executed action Czar.AbpDemo.JobSchedule.JobInfoAppService.GetListAsync (Czar.AbpDemo.Application) in 153.35590000000002ms
+2019-03-08 13:18:50.602 +08:00 [INF] Request finished in 163.5404ms 200 application/json; charset=utf-8
+2019-03-08 13:18:55.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:18:55.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:18:55.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:18:55.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:00.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:00.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:00.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:00.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:05.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:05.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:05.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:05.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:10.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:10.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:10.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:10.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:15.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:15.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:15.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:15.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:37.513 +08:00 [INF] Starting web host.
+2019-03-08 13:19:38.668 +08:00 [INF] User profile is available. Using 'C:\Users\lzhu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-03-08 13:19:38.852 +08:00 [INF] Loaded modules:
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-03-08 13:19:38.852 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainSharedModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.BackgroundJobs.BackgroundJobsDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Czar.AbpDemo.AbpDemoDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Czar.AbpDemo.AbpDemoApplicationModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.BackgroundJobs.EntityFrameworkCore.BackgroundJobsEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Czar.AbpDemo.EntityFrameworkCore.AbpDemoEntityFrameworkCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-03-08 13:19:38.853 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-03-08 13:19:38.854 +08:00 [INF] - Czar.AbpDemo.AbpDemoWebModule
+2019-03-08 13:19:38.894 +08:00 [DBG] Found 4 classes define auto mapping attributes.
+2019-03-08 13:19:38.894 +08:00 [DBG] Czar.AbpDemo.JobSchedule.CreateUpdateJobInfoDto
+2019-03-08 13:19:38.897 +08:00 [DBG] Czar.AbpDemo.JobSchedule.JobInfoDto
+2019-03-08 13:19:38.897 +08:00 [DBG] Czar.AbpDemo.BookStore.BookDto
+2019-03-08 13:19:38.897 +08:00 [DBG] Czar.AbpDemo.BookStore.CreateUpdateBookDto
+2019-03-08 13:19:39.131 +08:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2019-03-08 13:19:40.411 +08:00 [INF] Initialized all modules.
+2019-03-08 13:19:40.671 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/  
+2019-03-08 13:19:40.753 +08:00 [INF] Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2019-03-08 13:19:40.758 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2019-03-08 13:19:40.764 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2019-03-08 13:19:40.765 +08:00 [INF] Quartz Scheduler v.3.0.7.0 created.
+2019-03-08 13:19:40.765 +08:00 [INF] RAMJobStore initialized.
+2019-03-08 13:19:40.770 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.0.7.0) 'TestScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-03-08 13:19:40.771 +08:00 [INF] Quartz scheduler 'TestScheduler' initialized
+2019-03-08 13:19:40.771 +08:00 [INF] Quartz scheduler version: 3.0.7.0
+2019-03-08 13:19:40.835 +08:00 [INF] Scheduler TestScheduler_$_NON_CLUSTERED started.
+2019-03-08 13:19:40.849 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:40.858 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:40.864 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:40.900 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:40.911 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:42.517 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-03-08 13:19:42.536 +08:00 [INF] Executing handler method Czar.AbpDemo.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-03-08 13:19:42.537 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-03-08 13:19:42.539 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-03-08 13:19:42.539 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-03-08 13:19:42.884 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 7.32 ms.
+2019-03-08 13:19:43.342 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:43.351 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.352 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 3.10 ms.
+2019-03-08 13:19:44.371 +08:00 [INF] Executed page /Index in 1852.3010000000002ms
+2019-03-08 13:19:44.384 +08:00 [INF] Request finished in 3714.8518ms 200 text/html; charset=utf-8
+2019-03-08 13:19:44.440 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ApplicationConfigurationScript  
+2019-03-08 13:19:44.446 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53929/Abp/ServiceProxyScript  
+2019-03-08 13:19:44.460 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-03-08 13:19:44.473 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-03-08 13:19:44.494 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-03-08 13:19:44.504 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-03-08 13:19:44.510 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.513 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.516 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.519 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.523 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.524 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.527 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.530 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.532 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.533 +08:00 [INF] Authorization was successful.
+2019-03-08 13:19:44.563 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-03-08 13:19:44.565 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 67.6866ms.
+2019-03-08 13:19:44.568 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-03-08 13:19:44.568 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-03-08 13:19:44.568 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-03-08 13:19:44.569 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-03-08 13:19:44.569 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-03-08 13:19:44.569 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-03-08 13:19:44.569 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-03-08 13:19:44.569 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-03-08 13:19:44.570 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-03-08 13:19:44.571 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-03-08 13:19:44.571 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-03-08 13:19:44.571 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-03-08 13:19:44.571 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-03-08 13:19:44.571 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-03-08 13:19:44.572 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-03-08 13:19:44.572 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetAsyncById
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.GetListAsyncByInput
+2019-03-08 13:19:44.573 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 112.3754ms
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.CreateAsyncByInput
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.UpdateAsyncByIdAndInput
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: JobInfo.DeleteAsyncById
+2019-03-08 13:19:44.573 +08:00 [INF] Request finished in 132.5912ms 200 text/plain; charset=utf-8
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetAsyncById
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.GetListAsyncByInput
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.CreateAsyncByInput
+2019-03-08 13:19:44.573 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.UpdateAsyncByIdAndInput
+2019-03-08 13:19:44.574 +08:00 [DBG] ActionApiDescriptionModel.Create: Book.DeleteAsyncById
+2019-03-08 13:19:44.601 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 96.0736ms.
+2019-03-08 13:19:44.601 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-03-08 13:19:44.601 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 128.6078ms
+2019-03-08 13:19:44.601 +08:00 [INF] Request finished in 154.998ms 200 text/plain; charset=utf-8
+2019-03-08 13:19:45.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:45.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:45.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:45.002 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:50.001 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:50.001 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:50.001 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:50.004 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:19:55.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:19:55.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:19:55.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:19:55.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:20:00.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:20:00.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:20:00.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:20:00.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:20:05.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:20:05.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:20:05.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:20:05.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:20:10.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:20:10.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:20:10.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:20:10.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:20:15.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:20:15.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:20:15.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:20:15.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:20:20.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:20:20.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:20:20.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:20:20.001 +08:00 [DBG] Trigger instruction : NoInstruction
+2019-03-08 13:20:25.000 +08:00 [DBG] Producing instance of Job 'LogTestJob1.Testjob1', class=Czar.AbpDemo.Job.LogTestJob
+2019-03-08 13:20:25.000 +08:00 [DBG] Calling Execute on job LogTestJob1.Testjob1
+2019-03-08 13:20:25.000 +08:00 [DBG] Batch acquisition of 1 triggers
+2019-03-08 13:20:25.001 +08:00 [DBG] Trigger instruction : NoInstruction
