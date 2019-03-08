@@ -329,4 +329,4 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 src/Czar.AbpDemo.Web/Logs/2019-03-08logs.txt
-src/Czar.AbpDemo.Web/Logs/2019-03-08logs.txt
+/src/Czar.AbpDemo.Web/Logs
