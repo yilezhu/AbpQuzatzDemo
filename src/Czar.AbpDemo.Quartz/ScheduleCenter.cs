@@ -1,23 +1,21 @@
-﻿using Czar.AbpDemo.JobSchedule;
+﻿
+using Czar.AbpDemo.JobSchedule;
+using Czar.AbpDemo.Result;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 using Quartz;
 using Quartz.Impl;
-using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
-using Volo.Abp.DependencyInjection;
-using ILogger = Serilog.ILogger;
 
-namespace Czar.AbpDemo.Schedule
+namespace Czar.AbpDemo
 {
     /// <summary>
     /// 任务调度中心
     /// </summary>
-    public class ScheduleCenter : ISingletonDependency
+    public class ScheduleCenter
     {
         private readonly ILogger<ScheduleCenter> _logger;
 
@@ -38,7 +36,7 @@ namespace Czar.AbpDemo.Schedule
             }
             else
             {
-                
+
                 NameValueCollection parms = new NameValueCollection
                 {
                     ////scheduler名字
@@ -77,40 +75,44 @@ namespace Czar.AbpDemo.Schedule
         /// <summary>
         /// 添加调度任务
         /// </summary>
-        /// <param name="jobName">任务名称</param>
-        /// <param name="jobGroup">任务分组</param>
+        /// <param name="JobName">任务名称</param>
+        /// <param name="JobGroup">任务分组</param>
+        /// <param name="JobNamespaceAndClassName">任务完全限定名</param>
+        /// <param name="JobAssemblyName">任务程序集名称</param>
+        /// <param name="CronExpress">Cron表达式</param>
+        /// <param name="StarTime">开始时间</param>
+        /// <param name="EndTime">结束时间</param>
         /// <returns></returns>
-        public async Task<ScheduleResult> AddJobAsync(JobInfoDto infoDto)
+        public async Task<ScheduleResult> AddJobAsync(String JobName, String JobGroup, String JobNamespaceAndClassName, String JobAssemblyName, string CronExpress, DateTime StarTime, DateTime EndTime)
         {
             ScheduleResult result = new ScheduleResult();
             try
             {
-                if (infoDto == null)
+                if (string.IsNullOrEmpty(JobName) || string.IsNullOrEmpty(JobGroup) || string.IsNullOrEmpty(JobNamespaceAndClassName) || string.IsNullOrEmpty(JobAssemblyName) || string.IsNullOrEmpty(CronExpress))
                 {
                     result.Code = -3;
-                    result.Message = $"参数{typeof(CreateUpdateJobInfoDto)}不能为空";
+                    result.Message = $"参数不能为空";
                     return result;//出现异常
                 }
-
-                if (infoDto.StarTime == null)
+                if (StarTime == null)
                 {
-                    infoDto.StarTime = DateTime.Now;
+                    StarTime = DateTime.Now;
                 }
-                DateTimeOffset starRunTime = DateBuilder.NextGivenSecondDate(infoDto.StarTime, 1);
-                if (infoDto.EndTime == null)
+                DateTimeOffset starRunTime = DateBuilder.NextGivenSecondDate(StarTime, 1);
+                if (EndTime == null)
                 {
-                    infoDto.EndTime = DateTime.MaxValue.AddDays(-1);
+                    EndTime = DateTime.MaxValue.AddDays(-1);
                 }
-                DateTimeOffset endRunTime = DateBuilder.NextGivenSecondDate(infoDto.EndTime, 1);
+                DateTimeOffset endRunTime = DateBuilder.NextGivenSecondDate(EndTime, 1);
                 scheduler = await GetSchedulerAsync();
-                JobKey jobKey = new JobKey(infoDto.JobName, infoDto.JobGroup);
+                JobKey jobKey = new JobKey(JobName, JobGroup);
                 if (await scheduler.CheckExists(jobKey))
                 {
                     await scheduler.PauseJob(jobKey);
                     await scheduler.DeleteJob(jobKey);
                 }
                 //var jobType =Type.GetType("Czar.AbpDemo.Schedule.LogTestJob,Czar.AbpDemo.Web");
-                var jobType = Type.GetType(infoDto.JobNamespace + "." + infoDto.JobClassName + "," + infoDto.JobAssemblyName);
+                var jobType = Type.GetType(JobNamespaceAndClassName + "," + JobAssemblyName);
                 if (jobType == null)
                 {
                     result.Code = -1;
@@ -124,8 +126,8 @@ namespace Czar.AbpDemo.Schedule
                                              .StartAt(starRunTime)
                                              .EndAt(endRunTime)
                                              .UsingJobData("ServerName", scheduler.SchedulerName)
-                                             .WithIdentity(infoDto.JobName, infoDto.JobGroup)
-                                             .WithCronSchedule(infoDto.CronExpress)
+                                             .WithIdentity(JobName, JobGroup)
+                                             .WithCronSchedule(CronExpress)
                                              .Build();
                 await scheduler.ScheduleJob(job, trigger);
                 if (!scheduler.IsStarted)
@@ -143,75 +145,6 @@ namespace Czar.AbpDemo.Schedule
             }
         }
 
-        /// <summary>
-        /// 添加调度任务
-        /// </summary>
-        /// <param name="jobName">任务名称</param>
-        /// <param name="jobGroup">任务分组</param>
-        /// <returns></returns>
-        public async Task<ScheduleResult> AddJobAsync(CreateUpdateJobInfoDto infoDto)
-        {
-            ScheduleResult result = new ScheduleResult();
-            try
-            {
-                if (infoDto == null)
-                {
-                    result.Code = -3;
-                    result.Message = $"参数{typeof(CreateUpdateJobInfoDto)}不能为空";
-                    return result;//出现异常
-                }
-
-                if (infoDto.StarTime == null)
-                {
-                    infoDto.StarTime = DateTime.Now;
-                }
-                DateTimeOffset starRunTime = DateBuilder.NextGivenSecondDate(infoDto.StarTime, 1);
-                if (infoDto.EndTime == null)
-                {
-                    infoDto.EndTime = DateTime.MaxValue.AddDays(-1);
-                }
-                DateTimeOffset endRunTime = DateBuilder.NextGivenSecondDate(infoDto.EndTime, 1);
-                scheduler = await GetSchedulerAsync();
-                JobKey jobKey = new JobKey(infoDto.JobName, infoDto.JobGroup);
-                if (await scheduler.CheckExists(jobKey))
-                {
-                    await scheduler.PauseJob(jobKey);
-                    await scheduler.DeleteJob(jobKey);
-                }
-                //var jobType =Type.GetType("Czar.AbpDemo.Schedule.LogTestJob,Czar.AbpDemo.Web");
-                var jobType = Type.GetType(infoDto.JobNamespace + "." + infoDto.JobClassName + "," + infoDto.JobAssemblyName);
-                if (jobType == null)
-                {
-                    result.Code = -1;
-                    result.Message = "系统找不到对应的任务，请重新设置";
-                    return result;//出现异常
-                }
-                IJobDetail job = JobBuilder.Create(jobType)
-                .WithIdentity(jobKey)
-                .Build();
-                ICronTrigger trigger = (ICronTrigger)TriggerBuilder.Create()
-                                             .StartAt(starRunTime)
-                                             .EndAt(endRunTime)
-                                             .UsingJobData("ServerName", infoDto.JobName)
-                                             .WithIdentity(infoDto.JobName, infoDto.JobGroup)
-                                             .WithCronSchedule(infoDto.CronExpress)
-                                             .Build();
-                await scheduler.ScheduleJob(job, trigger);
-                if (!scheduler.IsStarted)
-                {
-                    await scheduler.Start();
-                }
-                
-                return result;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogException(ex);
-                result.Code = -4;
-                result.Message = ex.ToString();
-                return result;//出现异常
-            }
-        }
 
         /// <summary>
         /// 暂停指定任务计划

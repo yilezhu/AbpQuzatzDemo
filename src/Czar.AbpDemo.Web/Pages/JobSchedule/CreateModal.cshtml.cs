@@ -6,7 +6,6 @@ using Czar.AbpDemo.Pages;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Czar.AbpDemo.JobSchedule;
-using Czar.AbpDemo.Schedule;
 
 namespace Czar.AbpDemo.Web.Pages.JobSchedule
 {
@@ -44,7 +43,13 @@ namespace Czar.AbpDemo.Web.Pages.JobSchedule
         /// <returns></returns>
         public async Task<IActionResult> OnPostAsync()
         {
-            var result = await _scheduleCenter.AddJobAsync(JobInfo);
+            var result = await _scheduleCenter.AddJobAsync(JobInfo.JobName , 
+                JobInfo.JobGroup,
+                JobInfo.JobNamespace+"."+JobInfo.JobClassName,
+                JobInfo.JobAssemblyName,
+                JobInfo.CronExpress,
+                JobInfo.StarTime,
+                JobInfo.EndTime);
             if (result.Code==0)
             {
                 JobInfo.JobStatus = JobStatu.Running;

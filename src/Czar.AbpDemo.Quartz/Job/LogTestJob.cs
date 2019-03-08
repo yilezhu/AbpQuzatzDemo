@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
+﻿
 using Quartz;
 using Serilog;
 using System;
@@ -6,9 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Volo.Abp.Threading;
 
-namespace Czar.AbpDemo.Schedule
+namespace Czar.AbpDemo.Job
 {
     public class LogTestJob : IJob
     {

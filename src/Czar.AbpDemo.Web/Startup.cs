@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using Czar.AbpDemo.JobSchedule;
-using Czar.AbpDemo.Schedule;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,7 +33,7 @@ namespace Czar.AbpDemo
             loggerFactory
                 .AddSerilog(new LoggerConfiguration()
                     .Enrich.FromLogContext()
-                    .WriteTo.File("Logs/"+DateTime.Now.ToString("yyyy-MM-dd")+"Systemlogs.txt")
+                    .WriteTo.File("Logs/" + DateTime.Now.ToString("yyyy-MM-dd") + "Systemlogs.txt")
                     .CreateLogger()
                 );
 
@@ -47,7 +46,13 @@ namespace Czar.AbpDemo
                 {
                     list.ForEach(async x =>
                     {
-                        await scheduleCenter.AddJobAsync(x);
+                        await scheduleCenter.AddJobAsync(x.JobName,
+                                                x.JobGroup,
+                                                x.JobNamespace + "." + x.JobClassName,
+                                                x.JobAssemblyName,
+                                                x.CronExpress,
+                                                x.StarTime,
+                                                x.EndTime);
                     });
                     await jobInfoAppService.ResumeSystemStoppedAsync();
                 }

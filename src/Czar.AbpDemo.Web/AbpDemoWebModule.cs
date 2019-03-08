@@ -32,7 +32,6 @@ using Volo.Abp.UI.Navigation;
 using Volo.Abp.VirtualFileSystem;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.EntityFrameworkCore;
-using Czar.AbpDemo.Schedule;
 
 namespace Czar.AbpDemo
 {
@@ -63,6 +62,7 @@ namespace Czar.AbpDemo
         {
             var hostingEnvironment = context.Services.GetHostingEnvironment();
             var configuration = context.Services.GetConfiguration();
+            context.Services.AddSingleton<ScheduleCenter>();
             ConfigureDatabaseServices();
             ConfigureAutoMapper();
             ConfigureVirtualFileSystem(hostingEnvironment);
