@@ -19,14 +19,13 @@ namespace Czar.AbpDemo.Menus
         private async Task ConfigureMainMenuAsync(MenuConfigurationContext context)
         {
             var l = context.ServiceProvider.GetRequiredService<IStringLocalizer<AbpDemoResource>>();
-
-            context.Menu.Items.Insert(0, new ApplicationMenuItem("Czar.AbpDemo.Home", l["Menu:Home"], "/"));
+            context.Menu.Items.Insert(0, new ApplicationMenuItem("Czar.AbpDemo.Home", l["Menu:Home"].Value, "/"));
             context.Menu.AddItem(
-                new ApplicationMenuItem("BooksStore", l["Menu:BookStore"])
-                    .AddItem(new ApplicationMenuItem("BooksStore.Books", l["Menu:Books"], url: "/Books")));
+                new ApplicationMenuItem("BooksStore", l["Menu:BookStore"].Value)
+                    .AddItem(new ApplicationMenuItem("BooksStore.Books", l["Menu:Books"].Value, url: "/Books")));
             context.Menu.AddItem(
-               new ApplicationMenuItem("JobSchedule", l["Menu:JobSchedule"])
-                   .AddItem(new ApplicationMenuItem("JobSchedule.JobInfo", l["Menu:JobInfo"], url: "/JobSchedule")));
+               new ApplicationMenuItem("JobSchedule", l["Menu:JobSchedule"].Value)
+                   .AddItem(new ApplicationMenuItem("JobSchedule.JobInfo", l["Menu:JobInfo"].Value, url: "/JobSchedule")));
              await Task.CompletedTask;
         }
     }

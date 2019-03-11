@@ -1,5 +1,5 @@
 {
-    "culture": "zh-Hans",
+  "culture": "zh-Hans",
   "texts": {
     "Menu:Home": "首页",
     "Menu:BookStore": "图书馆",
@@ -13,4 +13,4 @@
     "Books:CreationTime": "创建时间",
     "Books:NewBook": "新书籍"
   }
-  }
+}

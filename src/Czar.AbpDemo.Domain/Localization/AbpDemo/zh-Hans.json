@@ -1,5 +1,5 @@
 {
-    "culture": "zh-Hans",
+  "culture": "zh-Hans",
   "texts": {
     "Menu:Home": "首页",
     "Menu:BookStore": "图书馆",
@@ -31,4 +31,4 @@
     "JobSchedule:EndTime": "结束时间",
     "JobSchedule:NextTime": "下次执行时间"
   }
-  }
+}

@@ -46,4 +46,9 @@
     <PackageReference Include="Volo.Abp.Account.Web" Version="0.13.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\pages\Books\index.js" />
+    <None Include="wwwroot\pages\JobSchedule\index.js" />
+  </ItemGroup>
+
 </Project>
