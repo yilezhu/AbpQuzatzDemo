@@ -9,13 +9,14 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
+using Volo.Abp.DependencyInjection;
 
 namespace Czar.AbpDemo
 {
     /// <summary>
     /// 任务调度中心
     /// </summary>
-    public class ScheduleCenter
+    public class ScheduleCenter:ISingletonDependency
     {
         private readonly ILogger<ScheduleCenter> _logger;
         private readonly object Locker = new object();
@@ -33,28 +34,28 @@ namespace Czar.AbpDemo
                 ////scheduler名字
                 ["quartz.scheduler.instanceName"] = "TestScheduler",
                 //序列化类型
-                ["quartz.serializer.type"] = "binary",//json,切换为数据库存储的时候需要设置json
-                                                      //自动生成scheduler实例ID，主要为了保证集群中的实例具有唯一标识
-                                                      //["quartz.scheduler.instanceId"] = "AUTO",
-                                                      ////是否配置集群
-                                                      //["quartz.jobStore.clustered"] = "true",
-                                                      ////线程池个数
-                                                      //["quartz.threadPool.threadCount"] = "20",
-                                                      ////类型为JobStoreXT,事务
-                                                      //["quartz.jobStore.type"] = "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
-                                                      ////以下配置需要数据库表配合使用，表结构sql地址：https://github.com/quartznet/quartznet/tree/master/database/tables
-                                                      ////JobDataMap中的数据都是字符串
-                                                      ////["quartz.jobStore.useProperties"] = "true",
-                                                      ////数据源名称
-                                                      //["quartz.jobStore.dataSource"] = "myDS",
-                                                      ////数据表名前缀
-                                                      //["quartz.jobStore.tablePrefix"] = "QRTZ_",
-                                                      ////使用Sqlserver的Ado操作代理类
-                                                      //["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.SqlServerDelegate, Quartz",
-                                                      ////数据源连接字符串
-                                                      //["quartz.dataSource.myDS.connectionString"] = "Server=[yourserver];Database=quartzDb;Uid=sa;Pwd=[yourpass]",
-                                                      ////数据源的数据库
-                                                      //["quartz.dataSource.myDS.provider"] = "SqlServer"
+                ["quartz.serializer.type"] = "json",//json,切换为数据库存储的时候需要设置json
+                //自动生成scheduler实例ID，主要为了保证集群中的实例具有唯一标识
+                ["quartz.scheduler.instanceId"] = "AUTO",
+                //是否配置集群
+                ["quartz.jobStore.clustered"] = "true",
+                //线程池个数
+                ["quartz.threadPool.threadCount"] = "20",
+                //类型为JobStoreXT,事务
+                ["quartz.jobStore.type"] = "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
+                //以下配置需要数据库表配合使用，表结构sql地址：https://github.com/quartznet/quartznet/tree/master/database/tables
+                //JobDataMap中的数据都是字符串
+                //["quartz.jobStore.useProperties"] = "true",
+                //数据源名称
+                ["quartz.jobStore.dataSource"] = "mySS",
+                //数据表名前缀
+                ["quartz.jobStore.tablePrefix"] = "QRTZ_",
+                //使用Sqlserver的Ado操作代理类
+                ["quartz.jobStore.driverDelegateType"] = "Quartz.Impl.AdoJobStore.SqlServerDelegate, Quartz",
+                //数据源连接字符串
+                ["quartz.dataSource.mySS.connectionString"] = "Server=localhost;Database=CzarAbpDemo;User Id = sa;Password = 1;Trusted_Connection=True;MultipleActiveResultSets=true",
+                //数据源的数据库
+                ["quartz.dataSource.mySS.provider"] = "SqlServer"
             };
             // 从Factory中获取Scheduler实例
             StdSchedulerFactory factory = new StdSchedulerFactory(parms);
