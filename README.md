@@ -1,4 +1,4 @@
-> 目前任务调度功能不再维护，已经移植到CzarCms系统中，以后也会在CzarCms系统中继续进行优化
+> 目前任务调度功能不再维护，已经移植到CzarCms系统中，以后也会在CzarCms系统中继续进行优化，具体链接为：https://github.com/yilezhu/Czar.Cms
 
 
 
